@@ -27,7 +27,7 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 
 } else {
 
-	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+	$url = parse_url(getenv("JAWSDB_MARIA_URL"));
 
 	/** The name of the database for WordPress */
 	define("DB_NAME", trim($url["path"], "/"));

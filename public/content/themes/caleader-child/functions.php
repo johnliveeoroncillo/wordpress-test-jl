@@ -83,40 +83,6 @@ function load_homepage_style() {
     }
 }
 
-//   // Area 1, located at the top of the sidebar.
-//   register_sidebar( array(
-//     'name' => __( 'Primary Widget Area', 'starkers' ),
-//     'id' => 'primary-widget-area',
-//     'description' => __( 'The primary widget area', 'starkers' ),
-//     'before_widget' => '<li>',
-//     'after_widget' => '</li>',
-//     'before_title' => '<h3>',
-//     'after_title' => '</h3>',
-//   ) );
-/**
- * FOR UI TESTING PURPOSES
- */
-// add_action('init', 'sms_otp_verification');
-// function sms_otp_verification() {
-// 	add_rewrite_rule('^test','index.php?test_page=1&post_type=custom_post_type','top');
-//     flush_rewrite_rules();
-// }
-// add_action('query_vars', 'set_query_var1');
-// function set_query_var1($vars) {
-// 	array_push($vars, 'test_page');
-// 	return $vars;
-// }
-// add_filter('template_include', 'inlude_template1', 1000, 1);
-// function inlude_template1($template){
-// 	$new_template = $template;
-// 	if(get_query_var('test_page')){
-// 		wp_head();	
-// 		$new_template = BASE_PATH . '/template-part/forms/apply-loan.php';
-// 		wp_footer();	
-// 	}
-// 	return $new_template;
-// }
-
 /**
  * FACEBOOK MESSENGER
  */

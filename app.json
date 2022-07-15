@@ -23,7 +23,7 @@
     }
   },
   "addons": [
-    "cleardb",
+    "jawsdb-maria",
     "sendgrid",
     "memcachier",
     "papertrail",
