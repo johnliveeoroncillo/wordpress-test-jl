@@ -162,7 +162,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "heroku/heroku-buildpack-php": 18
+        "heroku/heroku-buildpack-php": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
