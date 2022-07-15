@@ -12,7 +12,7 @@ require_once 'constants.php';
 require_once 'settings.php';
 require_once 'metaboxes/meta_box.php';
 
-if (wp_get_theme() === 'caleader') {
+if (wp_get_theme()->template === 'caleader') {
 	require_once 'class/Products.php';
 	require_once 'class/Navigation.php';
 	require_once 'class/Footer.php';
