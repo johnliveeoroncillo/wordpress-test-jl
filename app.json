@@ -1,7 +1,7 @@
 {
   "name": "WordPress Heroku PHP",
   "description": "Template for deploying WordPress to Heroku",
-  "repository": "https://github.com/ellefsen/wordpress-heroku-php",
+  "repository": "https://github.com/johnliveeoroncillo/wordpress-test-jl",
   "success_url": "/",
   "env": {
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php",
