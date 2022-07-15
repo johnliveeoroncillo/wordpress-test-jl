@@ -1,0 +1,166 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Caleader Review\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-15 17:12+0600\n"
+"PO-Revision-Date: 2019-03-05 12:41+0600\n"
+"Last-Translator: \n"
+"Language-Team: SmartDataSoft <support@smartdatasoft.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../caleader-review.php:58
+msgid "Your Review Is Added Successsfully"
+msgstr ""
+
+#: ../caleader-review.php:64
+msgctxt "Post Type General Name"
+msgid "Reviews"
+msgstr ""
+
+#: ../caleader-review.php:65
+msgctxt "Post Type Singular Name"
+msgid "Review"
+msgstr ""
+
+#: ../caleader-review.php:66
+msgid "Reviews"
+msgstr ""
+
+#: ../caleader-review.php:67
+msgid "Review"
+msgstr ""
+
+#: ../caleader-review.php:68
+msgid "Item Archives"
+msgstr ""
+
+#: ../caleader-review.php:69
+msgid "Parent Item:"
+msgstr ""
+
+#: ../caleader-review.php:70
+msgid "All Reviews"
+msgstr ""
+
+#: ../caleader-review.php:71 ../caleader-review.php:72
+msgid "Add New Review"
+msgstr ""
+
+#: ../caleader-review.php:73
+msgid "New Review Item"
+msgstr ""
+
+#: ../caleader-review.php:74
+msgid "Edit Review Item"
+msgstr ""
+
+#: ../caleader-review.php:75
+msgid "Update Review Item"
+msgstr ""
+
+#: ../caleader-review.php:76
+msgid "View Review Item"
+msgstr ""
+
+#: ../caleader-review.php:77
+msgid "Search Item"
+msgstr ""
+
+#: ../caleader-review.php:78
+msgid "Not found"
+msgstr ""
+
+#: ../caleader-review.php:79
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../caleader-review.php:80
+msgid "Featured Image"
+msgstr ""
+
+#: ../caleader-review.php:81
+msgid "Set featured image"
+msgstr ""
+
+#: ../caleader-review.php:82
+msgid "Remove featured image"
+msgstr ""
+
+#: ../caleader-review.php:83
+msgid "Use as featured image"
+msgstr ""
+
+#: ../caleader-review.php:84
+msgid "Insert into item"
+msgstr ""
+
+#: ../caleader-review.php:85
+msgid "Uploaded to this item"
+msgstr ""
+
+#: ../caleader-review.php:86
+msgid "Items list"
+msgstr ""
+
+#: ../caleader-review.php:87
+msgid "Items list navigation"
+msgstr ""
+
+#: ../caleader-review.php:88
+msgid "Filter items list"
+msgstr ""
+
+#: ../caleader-review.php:94
+msgid "Description."
+msgstr ""
+
+#: ../caleader-review.php:112
+msgid "Review Details Fields"
+msgstr ""
+
+#: ../caleader-review.php:117
+msgid "Reviewer Name"
+msgstr ""
+
+#: ../caleader-review.php:123
+msgid "Email Address"
+msgstr ""
+
+#: ../caleader-review.php:129
+msgid "Review Car"
+msgstr ""
+
+#: ../caleader-review.php:135
+msgid "Rating"
+msgstr ""
+
+#: ../caleader-review.php:152
+msgid "Admin Response to Review"
+msgstr ""
+
+#: ../caleader-review.php:236
+msgid "Your Review Is Not Submitted. Something went wrong"
+msgstr ""
+
+#: ../templates/archive-carleader_review.php:9
+msgid "Our Testimonials"
+msgstr ""
+
+#: ../templates/archive-carleader_review.php:73
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../templates/archive-carleader_review.php:99
+msgid "LEAVE REVIEW"
+msgstr ""

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/**
+* Responsive variables
+*/
+footer {
+  border-top: 1px solid #D9D9D9;
+}
+footer .tt-footer-layout {
+  --padding-top: 67px;
+  --padding-bottom: 67px;
+  --text-align: left;
+  padding-top: var(--padding-top) !important;
+  padding-bottom: var(--padding-bottom) !important;
+  text-align: var(--text-align);
+}
+@media only screen and (max-width: 576px) {
+  footer .tt-footer-layout {
+    --padding-top: 32px;
+    --padding-bottom: 32px;
+    --text-align: center;
+  }
+}
+footer a.tt-logo {
+  --text-align: left;
+  --margin: 0;
+  text-align: var(--text-align) !important;
+  margin: var(--margin) !important;
+}
+footer a.tt-logo img {
+  height: 20px;
+  -webkit-filter: saturate(0%) grayscale(100%) brightness(69%) contrast(1000%);
+}
+@media only screen and (max-width: 576px) {
+  footer a.tt-logo {
+    --text-align: center;
+    --margin: 0 auto;
+  }
+}
+footer #menu-footer-menu > li {
+  margin-bottom: 16px;
+  font-size: 0.875rem;
+}
+footer #menu-footer-menu > li a {
+  color: #313131;
+}
+footer #menu-footer-menu > li a:not([disabled]):hover, footer #menu-footer-menu > li a:not([disabled]):focus {
+  color: #DC3C54;
+}
+footer .newsletter-heading {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#tt-footer:not([class^=tt-footer-indent]) .tt-social-icon li a {
+  --line-height: 1.8;
+  width: 32px !important;
+  height: 32px !important;
+  background-color: #313131 !important;
+  line-height: var(--line-height) !important;
+}
+#tt-footer:not([class^=tt-footer-indent]) .tt-social-icon li a:not([disabled]):hover, #tt-footer:not([class^=tt-footer-indent]) .tt-social-icon li a:not([disabled]):focus {
+  background-color: #DC3C54 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+@media only screen and (max-width: 1200px) {
+  #tt-footer:not([class^=tt-footer-indent]) .tt-social-icon li a {
+    --line-height: 2.1;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

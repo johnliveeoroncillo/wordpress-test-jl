@@ -1,0 +1,296 @@
+/**
+* Sidebar search/filter used in Listings
+*/
+.tt-aside02.js-sticky-sidebar.column-open {
+    z-index: 9999 !important;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.tt-aside02.js-sticky-sidebar.column-open .tt-label-aside {
+    border-top-right-radius: 8px;
+    padding-top: 30px !important;
+    padding-bottom: 24px !important;
+}
+.tt-aside02.js-sticky-sidebar.column-open .tt-btn-col-close {
+    top: 28px !important;
+    right: 11px !important;
+}
+.tt-filters-options .tt-btn-toggle a {
+    background-color: $white;
+    border: 1px solid $primary;
+    border-left: 0px;     
+    -webkit-box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.08);
+    width: 77.5px;
+    height: 75px;
+    border-top-right-radius: 99px !important;
+    border-bottom-right-radius: 99px !important;
+    display: flex;    
+    
+    &::before {
+        color: $primary !important;
+        font-size: 28px !important;
+        align-self: center;
+        margin-left: 10px;
+    }
+}
+.listings-search-filter .icon-close::before {
+    content: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.2352 0.23523L15.7646 3.76459L3.76477 15.7644L0.235412 12.235L12.2352 0.23523Z' fill='%2348484A'/%3E%3Cpath d='M15.7646 12.235L12.2352 15.7644L0.235412 3.76459L3.76477 0.23523L15.7646 12.235Z' fill='%2348484A'/%3E%3C/svg%3E%0A") !important;
+}
+.tt-filters-options .tt-btn-toggle {
+    @media only screen and (max-width: map-get($grid-breakpoints, lg)) {              
+        top: 220px !important;
+    } 
+}
+.tt-wrapper-aside {
+    border-radius: $border-radius !important;    
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.12) !important;
+
+    .tt-icon {
+        background-color: $white !important;
+        border: 1px solid $primary !important;
+        border-left: 0 !important;
+        padding-right: 6px;
+        display: flex;
+    
+        .icon-carsearch {
+            color: $primary;
+            font-size: 23px;
+            align-self: center !important;
+            margin: 0 auto !important;
+            
+            @media only screen and (max-width: map-get($grid-breakpoints, xl)) {              
+                font-size: 28px;
+            } 
+        }
+
+        @media only screen and (max-width: map-get($grid-breakpoints, xl)) {              
+            width: 97px !important;
+            height: 75px !important;
+            border-top-right-radius: 99px !important;
+            border-bottom-right-radius: 99px !important;
+        } 
+    }
+
+    .tt-aside-title {
+        font-family: inherit !important;
+        font-weight: 700 !important;
+        padding-bottom: 16px !important;
+        font-size: 24px !important;
+
+        @media only screen and (max-width: map-get($grid-breakpoints, xl)) {              
+            padding-left: 24px !important;
+            padding-right: 24px !important;
+        } 
+    }
+
+    .tt-content {
+        @media only screen and (max-width: map-get($grid-breakpoints, xl)) {              
+            padding-left: 24px !important;
+            padding-right: 24px !important;
+        } 
+    }
+
+    .tt-form-search .btn[type=submit] {
+        margin-top: 16px !important;
+        text-transform: capitalize; 
+        @extend .btn-warning;
+        @extend .btn-lg;
+    }
+
+    @media only screen and (max-width: map-get($grid-breakpoints, xl)) {              
+        box-shadow: none !important;
+    } 
+}
+
+#tt-filters-aside {
+    padding: 0 24px !important;
+
+    @media only screen and (max-width: map-get($grid-breakpoints, xl)) {              
+        padding: 24px !important;
+    } 
+}
+
+.tt-label-aside {
+    .tt-title {
+        padding-top: 0 !important;
+        padding-left: 21px;
+        font-family: inherit !important;
+        font-weight: 700 !important;
+        font-size: 24px !important;
+        min-height: 42px;
+    }
+}
+
+.tt-col-price {
+    margin-top: 24px !important;    
+
+    .tt-aside-title {
+        font-family: inherit !important;
+        font-weight: 500 !important;
+        padding-bottom: 20px !important;
+        font-size: 20px !important;
+    }
+}
+
+#slider-snap {
+    --height: 8px;
+
+    height: var(--height) !important;
+    background: $white-200 !important;
+    border-radius: 50px;
+
+    .noUi-connect {
+        height: var(--height) !important;
+    }
+
+    .noUi-handle {
+        height: 24px !important;
+        width: 24px !important;
+        top: -9px !important;
+        border-color: $primary;
+
+        &:before {
+            display: none;
+        }
+    }
+}
+
+.slider-value {
+    text-align: left !important;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    color: $gray-200 !important;
+}
+
+.listings-search-filter .tt-col-btn {
+    .btn-color02 {
+        @extend .btn-outline-dark;
+        @extend .btn-md;   
+        line-height: 2 !important; 
+        border-color: $dark !important;
+        font-size: 14px !important;
+        text-transform: capitalize; 
+        font-weight: 700 !important;
+    
+        @include hover-focus {
+            border: 1px solid $white-200 !important;
+        }
+    }
+
+    .btn[type=submit] {
+        text-transform: capitalize; 
+        @extend .btn-primary;
+        @extend .btn-md;
+    }
+}
+
+/**
+* Action buttons used in Single
+*/
+.tt-aside-btn {
+    @extend .pb-0;
+    @extend .pl-0;
+    @extend .ml-0;
+}
+.tt-aside-btn a {
+    @extend .mx-0;
+    @extend .w-100;
+}
+.icon-download:before {
+    content: url("data:image/svg+xml,%3Csvg width='24' height='25' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.11035 18.4453L12.2703 23.6398L17.4302 18.4453' stroke='%23DC3C54' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cline x1='1' y1='-1' x2='12' y2='-1' transform='matrix(8.74228e-08 -1 -1 -8.74228e-08 11.2715 22.6504)' stroke='%23DC3C54' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M21 12L21 7C21 4.23858 18.7614 2 16 2L9 2C6.23858 2 4 4.23857 4 7L4 12' stroke='%23DC3C54' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    margin-right: 13px;
+}
+
+
+/**
+* Financial Calculator used in Single
+*/
+.tt-calculator-title,
+.tt-form-aside label {
+    font-family: inherit !important;
+    font-weight: 700 !important;
+}
+
+.section-wrapper-03 > .container-indent > .container .tt-aside-calculator {
+    border-radius: 8px;
+    margin-top: 34px !important;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.12) !important;
+    // padding-left: 25px !important;   
+    // padding-right: 25px !important;   
+
+    @media only screen and (max-width: map-get($grid-breakpoints, sm)) {    
+        padding-left: 0 !important;   
+        padding-right: 0 !important;   
+    }   
+}
+.tt-form-default {
+    margin-bottom: 50px;
+    @media only screen and (max-width: map-get($grid-breakpoints, sm)) {    
+        margin-bottom: 40px;
+    }  
+}
+.tt-wrapper-top {    
+    border-radius: 8px;        
+}
+.tt-calculator-title {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    padding-top: 30px !important;
+    padding-right: 24px !important;
+}
+.tt-calculator-content .tt-form-aside > div:nth-child(1) {
+    display: none;
+}
+.tt-calculator-content .form-group { 
+    @extend .mb-3;
+}
+.tt-calculator-content label { 
+    @extend .mb-0;
+}
+.icon-calculator {
+    background-color: $white !important;
+    border: 1px solid $primary !important;
+    border-left: 0 !important;    
+    margin-right: 21px !important;
+    width: 100% !important;
+    max-width: 77px !important;
+    
+    &:before {
+        content: url("data:image/svg+xml,%3Csvg width='41' height='40' viewBox='0 0 41 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.1931 36.6663H30.3418C31.2324 36.6663 32.0866 36.3152 32.7163 35.69C33.3461 35.0649 33.6999 34.2171 33.6999 33.333V6.66634C33.6999 5.78229 33.3461 4.93444 32.7163 4.30932C32.0866 3.6842 31.2324 3.33301 30.3418 3.33301H10.1931C9.30245 3.33301 8.4483 3.6842 7.81853 4.30932C7.18876 4.93444 6.83496 5.78229 6.83496 6.66634V33.333C6.83496 34.2171 7.18876 35.0649 7.81853 35.69C8.4483 36.3152 9.30245 36.6663 10.1931 36.6663ZM15.2303 31.6663H11.8721V28.333H15.2303V31.6663ZM15.2303 24.9997H11.8721V21.6663H15.2303V24.9997ZM15.2303 18.333H11.8721V14.9997H15.2303V18.333ZM21.9465 31.6663H18.5884V28.333H21.9465V31.6663ZM21.9465 24.9997H18.5884V21.6663H21.9465V24.9997ZM21.9465 18.333H18.5884V14.9997H21.9465V18.333ZM28.6627 31.6663H25.3046V21.6663H28.6627V31.6663ZM28.6627 18.333H25.3046V14.9997H28.6627V18.333ZM10.1931 6.66634H30.3418V11.6663H10.1931V6.66634Z' fill='%23DC3C54'/%3E%3C/svg%3E%0A") !important;
+    }
+}
+.interest_rate,
+.period,
+.down_payment {
+    border-radius: 8px !important;
+    background: transparent !important;
+    border-color: #E5E5EA !important;
+    border-width: 1.5px !important;
+    height: $input-height-lg !important;
+    padding-left: 16px !important;
+
+    @include hover-focus {
+        border-color: $primary !important;
+    }
+}
+.tt-aside-calculator .btn.btn_calculate {    
+    @extend .btn-warning;
+    @extend .btn-lg;
+}
+.calculator-result-show {
+    padding: 20px 24px 28px 24px !important;    
+
+    &::before, &::after {
+        display: none !important;
+    }
+}
+.calculator-result-show li {
+    color: $gray-200 !important;
+}
+.calculator-result-show li > span {
+    margin-top: 11px !important;
+    font-weight: 700 !important;
+}
+

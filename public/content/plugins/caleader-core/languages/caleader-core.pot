@@ -1,0 +1,2766 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Caleader Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-09 19:31+0600\n"
+"PO-Revision-Date: 2019-03-05 12:41+0600\n"
+"Last-Translator: \n"
+"Language-Team: SmartDataSoft <support@smartdatasoft.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../breadcrumb-navxt/breadcrumb-navxt.php:8
+#: ../breadcrumb-navxt/class.bcn_admin.php:26
+#: ../breadcrumb-navxt/class.bcn_rest_controller.php:26
+#, php-format
+msgid ""
+"Your PHP version is too old, please upgrade to a newer version. Your version "
+"is %1$s, Breadcrumb NavXT requires %2$s"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:65
+msgid "Breadcrumb NavXT Settings"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:325
+msgid "Tips for the settings are located below select options."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:326
+msgid "Resources"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:327
+#, php-format
+msgid ""
+"%sTutorials and How Tos%s: There are several guides, tutorials, and how tos "
+"available on the author's website."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:328
+#, php-format
+msgid ""
+"%sOnline Documentation%s: Check out the documentation for more indepth "
+"technical information."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:329
+#, php-format
+msgid ""
+"%sReport a Bug%s: If you think you have found a bug, please include your "
+"WordPress version and details on how to reproduce the bug."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:330
+msgid "Giving Back"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:331
+#, php-format
+msgid ""
+"%sDonate%s: Love Breadcrumb NavXT and want to help development? Consider "
+"buying the author a beer."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:332
+#, php-format
+msgid ""
+"%sTranslate%s: Is your language not available? Visit the Breadcrumb NavXT "
+"translation project on WordPress.org to start translating."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:337
+#: ../breadcrumb-navxt/class.bcn_admin.php:494
+#: ../breadcrumb-navxt/class.bcn_admin.php:495
+#: ../includes/widgets/footer_contact.php:22
+#: ../includes/widgets/footer_schedule.php:22
+#: ../includes/widgets/weekly-specials-two.php:76
+msgid "General"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:340
+msgid ""
+"For the settings on this page to take effect, you must either use the "
+"included Breadcrumb NavXT widget, or place either of the code sections below "
+"into your theme."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:341
+msgid "Breadcrumb trail with separators"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:347
+msgid "Breadcrumb trail in list form"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:356
+msgid "Quick Start"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:359
+msgid ""
+"Using the code from the Quick Start section above, the following CSS can be "
+"used as base for styling your breadcrumb trail."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:371
+msgid "Styling"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:377
+msgid "Import/Export/Reset"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:401
+msgid "Import"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:402
+msgid "Export"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:403
+msgid "Reset"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:421
+msgid ""
+"Warning: Your network settings will override any settings set in this page."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:425
+#: ../breadcrumb-navxt/class.bcn_admin.php:429
+msgid ""
+"Warning: Your network settings may override any settings set in this page."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:434
+#: ../breadcrumb-navxt/class.bcn_network_admin.php:163
+msgid ""
+"Warning: No BCN_SETTINGS_* define statement found, defaulting to "
+"BCN_SETTINGS_USE_LOCAL."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:446
+#, php-format
+msgid ""
+"Warning: Your are using a deprecated setting \"Title Length\" (see "
+"Miscellaneous &gt; Deprecated), please %1$suse CSS instead%2$s."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:446
+msgid "Go to the guide on trimming breadcrumb title lengths with CSS"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:494
+msgid ""
+"A collection of settings most likely to be modified are located under this "
+"tab."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:498
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:498
+msgid "Placed in between each breadcrumb."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:502
+msgid "Current Item"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:505
+msgid "Link Current Item"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:505
+msgid "Yes"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:506
+msgctxt ""
+"Paged as in when on an archive or post that is split into multiple pages"
+msgid "Paged Breadcrumb"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:506
+msgid "Place the page number breadcrumb in the trail."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:506
+msgid ""
+"Indicates that the user is on a page other than the first of a paginated "
+"archive or post."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:507
+msgctxt ""
+"Paged as in when on an archive or post that is split into multiple pages"
+msgid "Paged Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:507
+msgid "The template for paged breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:511
+#: ../breadcrumb-navxt/class.bcn_admin.php:514
+msgid "Home Breadcrumb"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:514
+msgid "Place the home breadcrumb in the trail."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:515
+msgid "Home Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:515
+msgid "The template for the home breadcrumb."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:516
+msgid "Home Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:516
+msgid ""
+"The template for the home breadcrumb, used when the breadcrumb is not linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:520
+#: ../breadcrumb-navxt/class.bcn_admin.php:523
+msgid "Blog Breadcrumb"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:523
+msgid "Place the blog breadcrumb in the trail."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:527
+msgid "Mainsite Breadcrumb"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:530
+msgid "Main Site Breadcrumb"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:530
+msgid "Place the main site home breadcrumb in the trail in an multisite setup."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:531
+msgid "Main Site Home Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:531
+msgid ""
+"The template for the main site home breadcrumb, used only in multisite "
+"environments."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:532
+msgid "Main Site Home Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:532
+msgid ""
+"The template for the main site home breadcrumb, used only in multisite "
+"environments and when the breadcrumb is not linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:539
+msgid ""
+"The settings for all post types (Posts, Pages, and Custom Post Types) are "
+"located under this tab."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:539
+msgid "Post Types"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:540
+msgid "Posts"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:543
+msgid "Post Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:543
+msgid "The template for post breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:544
+msgid "Post Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:544
+msgid ""
+"The template for post breadcrumbs, used only when the breadcrumb is not "
+"linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:545
+msgid "Post Hierarchy Display"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:545
+msgid ""
+"Show the hierarchy (specified below) leading to a post in the breadcrumb "
+"trail."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:546
+msgid "Post Hierarchy Use Parent First"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:546
+msgid ""
+"Use the parent of the post as the primary hierarchy, falling back to the "
+"hierarchy selected below when the parent hierarchy is exhausted."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:547
+msgid "Post Hierarchy Referer Influence"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:547
+#: ../breadcrumb-navxt/class.bcn_admin.php:629
+msgid ""
+"Allow the referring page to influence the taxonomy selected for the "
+"hierarchy."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:551
+msgid "Post Hierarchy"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:555
+#: ../breadcrumb-navxt/class.bcn_admin.php:678
+msgid "Categories"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:556
+#: ../breadcrumb-navxt/class.bcn_admin.php:639
+msgid "Dates"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:557
+#: ../breadcrumb-navxt/class.bcn_admin.php:685
+msgid "Tags"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:559
+#: ../breadcrumb-navxt/class.bcn_admin.php:638
+msgid "Post Parent"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:575
+#: ../breadcrumb-navxt/class.bcn_admin.php:663
+msgid ""
+"The hierarchy which the breadcrumb trail will show. Note that the \"Post "
+"Parent\" option may require an additional plugin to behave as expected since "
+"this is a non-hierarchical post type."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:579
+msgid "Pages"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:582
+msgid "Page Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:582
+msgid "The template for page breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:583
+msgid "Page Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:583
+msgid ""
+"The template for page breadcrumbs, used only when the breadcrumb is not "
+"linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:589
+msgid "Attachments"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:592
+msgid "Attachment Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:592
+msgid "The template for attachment breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:593
+msgid "Attachment Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:593
+msgid ""
+"The template for attachment breadcrumbs, used only when the breadcrumb is "
+"not linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:613
+#: ../breadcrumb-navxt/class.bcn_admin.php:716
+#, php-format
+msgid "%s Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:613
+#: ../breadcrumb-navxt/class.bcn_admin.php:716
+#, php-format
+msgid "The template for %s breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:614
+#: ../breadcrumb-navxt/class.bcn_admin.php:717
+#, php-format
+msgid "%s Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:614
+#: ../breadcrumb-navxt/class.bcn_admin.php:717
+#, php-format
+msgid ""
+"The template for %s breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:619
+#, php-format
+msgid "%s Root Page"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:622
+#: ../breadcrumb-navxt/class.bcn_admin.php:740
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:626
+#, php-format
+msgid "%s Archive Display"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:626
+#, php-format
+msgid ""
+"Show the breadcrumb for the %s post type archives in the breadcrumb trail."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:627
+#, php-format
+msgid "%s Hierarchy Display"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:627
+#, php-format
+msgid ""
+"Show the hierarchy (specified below) leading to a %s in the breadcrumb trail."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:628
+#, php-format
+msgid "%s Hierarchy Use Parent First"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:628
+#, php-format
+msgid ""
+"Use the parent of the %s as the primary hierarchy, falling back to the "
+"hierarchy selected below when the parent hierarchy is exhausted."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:629
+#, php-format
+msgid "%s Hierarchy Referer Influence"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:633
+#, php-format
+msgid "%s Hierarchy"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:659
+msgid "The hierarchy which the breadcrumb trail will show."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:677
+msgid ""
+"The settings for all taxonomies (including Categories, Tags, and custom "
+"taxonomies) are located under this tab."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:677
+msgid "Taxonomies"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:681
+msgid "Category Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:681
+msgid "The template for category breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:682
+msgid "Category Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:682
+msgid ""
+"The template for category breadcrumbs, used only when the breadcrumb is not "
+"linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:688
+msgid "Tag Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:688
+msgid "The template for tag breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:689
+msgid "Tag Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:689
+msgid ""
+"The template for tag breadcrumbs, used only when the breadcrumb is not "
+"linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:692
+msgid "Post Formats"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:695
+msgid "Post Format Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:695
+msgid "The template for post format breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:696
+msgid "Post Format Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:696
+msgid ""
+"The template for post_format breadcrumbs, used only when the breadcrumb is "
+"not linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:726
+msgid ""
+"The settings for author and date archives, searches, and 404 pages are "
+"located under this tab."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:726
+#: ../breadcrumb-navxt/class.bcn_admin.php:744
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:727
+msgid "Author Archives"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:730
+msgid "Author Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:730
+msgid "The template for author breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:731
+msgid "Author Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:731
+msgid ""
+"The template for author breadcrumbs, used only when the breadcrumb is not "
+"linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:732
+msgid "Author Display Format"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:732
+msgid ""
+"display_name uses the name specified in \"Display name publicly as\" under "
+"the user profile the others correspond to options in the user profile."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:737
+msgid "Author Root Page"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:747
+msgid "Date Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:747
+msgid "The template for date breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:748
+msgid "Date Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:748
+msgid ""
+"The template for date breadcrumbs, used only when the breadcrumb is not "
+"linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:749
+msgid "Search Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:749
+msgid ""
+"The anchor template for search breadcrumbs, used only when the search "
+"results span several pages."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:750
+msgid "Search Template (Unlinked)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:750
+msgid ""
+"The anchor template for search breadcrumbs, used only when the search "
+"results span several pages and the breadcrumb is not linked."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:751
+msgid "404 Title"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:752
+msgid "404 Template"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:752
+msgid "The template for 404 breadcrumbs."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:755
+msgid "Deprecated"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:759
+msgid "Title Length"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:764
+#, php-format
+msgid ""
+"Limit the length of the breadcrumb title. (Deprecated, %suse CSS instead%s)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_admin.php:769
+msgid "Max Title Length: "
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_breadcrumb.php:239
+msgid "bcn_breadcrumb::type must be an array"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_breadcrumb_trail.php:112
+msgid "404"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_breadcrumb_trail.php:462
+msgid "$post global is not of type WP_Post"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_breadcrumb_trail.php:540
+msgctxt "day archive breadcrumb date format"
+msgid "d"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_breadcrumb_trail.php:567
+msgctxt "month archive breadcrumb date format"
+msgid "F"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_breadcrumb_trail.php:594
+msgctxt "year archive breadcrumb date format"
+msgid "Y"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_network_admin.php:44
+msgid "Breadcrumb NavXT Network Settings"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_network_admin.php:146
+#: ../breadcrumb-navxt/class.bcn_network_admin.php:164
+msgid ""
+"Warning: Individual site settings will override any settings set in this "
+"page."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_network_admin.php:154
+#: ../breadcrumb-navxt/class.bcn_network_admin.php:158
+msgid ""
+"Warning: Individual site settings may override any settings set in this page."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_rest_controller.php:77
+msgid "The ID of the post (any type) to retrieve the breadcrumb trail for."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_rest_controller.php:91
+msgid "The ID of the term to retrieve the breadcrumb trail for."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_rest_controller.php:97
+msgid "The taxonomy of the term to retrieve the breadcrumb trail for."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_rest_controller.php:110
+msgid "The ID of the author to retrieve the breadcrumb trail for."
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:31
+msgid "Adds a breadcrumb trail to your sidebar"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:108
+#: ../widgets/button-widget-carleader.php:20
+msgid "Title:"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:112
+msgid "Text to show before the trail:"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:116
+msgid "Output trail as:"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:118
+msgid "List"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:119
+msgid "Schema.org BreadcrumbList (RDFa)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:120
+msgid "Schema.org BreadcrumbList (microdata)"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:121
+msgid "Plain"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:127
+msgid "Link the breadcrumbs"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:129
+msgid "Reverse the order of the trail"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:131
+msgid "Hide the trail on the front page"
+msgstr ""
+
+#: ../breadcrumb-navxt/class.bcn_widget.php:133
+msgid "Ignore breadcrumb cache"
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:121
+msgid "Insufficient privileges to proceed."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:228
+msgid "Settings"
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:298
+msgid ""
+"Your settings are for an older version of this plugin and need to be "
+"migrated."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:299
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:308
+msgid "Migrate the settings now."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:299
+msgid "Migrate now."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:307
+msgid "Your settings are for a newer version of this plugin."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:308
+msgid "Attempt back migration now."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:314
+msgid "Your plugin install is incomplete."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:315
+msgid "Load default settings now."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:315
+msgid "Complete now."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:321
+msgid "One or more of your plugin settings are invalid."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:322
+msgid "Attempt to fix settings now."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:322
+msgid "Fix now."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:504
+msgid "Settings successfully saved."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:505
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:513
+msgid "Undo the options save."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:505
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:513
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:614
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:637
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:655
+msgid "Undo"
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:507
+msgid "Settings did not change, nothing to save."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:509
+msgid "Settings were not saved."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:512
+msgid "Some settings were not saved."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:514
+msgid "The following settings were not saved:"
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:518
+#, php-format
+msgid "Please include this message in your %sbug report%s."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:613
+msgid "Settings successfully imported from the uploaded file."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:614
+msgid "Undo the options import."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:617
+msgid "Importing settings from file failed."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:636
+msgid "Settings successfully reset to the default values."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:637
+msgid "Undo the options reset."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:654
+msgid "Settings successfully undid the last operation."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:655
+msgid "Undo the last undo operation."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:688
+msgid "Settings successfully migrated."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:693
+msgid "Default settings successfully installed."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:731
+msgid "adminKit::message is deprecated, use new adminkit_messages instead."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:797
+msgid ""
+"Import settings from a XML file, export the current settings to a XML file, "
+"or reset to the default settings."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:800
+msgid "Settings File"
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit.php:803
+msgid "Select a XML settings file to upload and import settings from."
+msgstr ""
+
+#: ../breadcrumb-navxt/includes/class.mtekk_adminkit_message.php:43
+msgid "$uid must not be null if message is dismissible"
+msgstr ""
+
+#: ../caleader-core.php:253
+msgid "Your installed PHP Version is: "
+msgstr ""
+
+#: ../caleader-core.php:254
+msgid ""
+"The <strong>Team Members for Elementor</strong> plugin requires PHP version "
+"<strong>"
+msgstr ""
+
+#: ../caleader-core.php:254
+msgid "</strong> or greater."
+msgstr ""
+
+#: ../caleader-core.php:271
+msgid "<h1>An Error Occured</h1>"
+msgstr ""
+
+#: ../caleader-core.php:272
+msgid "<h2>Your installed PHP Version is: "
+msgstr ""
+
+#: ../caleader-core.php:273
+msgid ""
+"You should update your PHP software or contact your host regarding this "
+"matter.</p>"
+msgstr ""
+
+#: ../caleader-core.php:274
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: ../includes/class-scripts.php:33
+msgid "Stars"
+msgstr ""
+
+#: ../includes/config.meta.box.php:6 ../includes/config.meta.box.php:25
+#: ../includes/config.meta.box.php:46 ../includes/config.meta.box.php:67
+#: ../includes/config.meta.box.php:92
+msgid "Post Format Data"
+msgstr ""
+
+#: ../includes/config.meta.box.php:15
+msgid "Quote Text"
+msgstr ""
+
+#: ../includes/config.meta.box.php:16
+msgid "Insert Quote Text."
+msgstr ""
+
+#: ../includes/config.meta.box.php:35
+msgid "Video Markup"
+msgstr ""
+
+#: ../includes/config.meta.box.php:36 ../includes/config.meta.box.php:57
+msgid "Put embed src of video. i.e. youtube, vimeo"
+msgstr ""
+
+#: ../includes/config.meta.box.php:56
+msgid "Audio Markup"
+msgstr ""
+
+#: ../includes/config.meta.box.php:77
+msgid "Link"
+msgstr ""
+
+#: ../includes/config.meta.box.php:78 ../includes/config.meta.box.php:84
+msgid "Works with link post format."
+msgstr ""
+
+#: ../includes/config.meta.box.php:83
+msgid "Link title"
+msgstr ""
+
+#: ../includes/config.meta.box.php:103
+msgid "Upload Gallery Images"
+msgstr ""
+
+#: ../includes/config.meta.box.php:114
+msgid "Manage Services Meta Fields"
+msgstr ""
+
+#: ../includes/config.meta.box.php:123
+msgid "Service Icon"
+msgstr ""
+
+#: ../includes/config.meta.box.php:124
+msgid "Hover Service Icon"
+msgstr ""
+
+#: ../includes/config.meta.box.php:129
+msgid "Short Description"
+msgstr ""
+
+#: ../includes/functions.php:12
+msgid "Car Leader"
+msgstr ""
+
+#: ../includes/functions.php:47
+msgid "No contact forms found"
+msgstr ""
+
+#: ../includes/functions.php:63
+msgid "No contect From 7 form found"
+msgstr ""
+
+#: ../includes/functions.php:80
+msgid "No Pages Found!"
+msgstr ""
+
+#: ../includes/functions.php:91
+msgid "CarLeader"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:8
+msgid "Carleader Icon Box"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:20
+msgid "IconBox"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:26 ../includes/widgets/slickslider.php:37
+#: ../includes/widgets/testimonial-widget.php:48
+#: ../includes/widgets/we-offer.php:27
+#: ../widgets/smart-contact-box-widget.php:71
+msgid "Style"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:29
+msgid "Layout 01"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:30
+msgid "Layout 02"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:31
+msgid "Layout 03"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:33
+msgid "tt-box-layout02"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:41
+#: ../includes/widgets/carleader-counter.php:100
+#: ../includes/widgets/footer_contact.php:44
+#: ../includes/widgets/footer_schedule.php:43
+#: ../includes/widgets/parallax-image.php:69
+#: ../includes/widgets/we-offer.php:95
+msgid "Icon"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:43
+msgid "icon-vehicles"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:49 ../includes/widgets/IconBox.php:58
+#: ../includes/widgets/we-offer.php:103
+msgid "Icon Content"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:51
+msgid "Certified Vehicles That Look and Feel New"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:60
+msgid ""
+"Each vehicle is detailed and washed to guarantee that you feel like the "
+"first owner. "
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:67
+#: ../includes/widgets/carleader-about-tab.php:65
+#: ../includes/widgets/carleader-counter.php:108
+#: ../includes/widgets/carleader-faq.php:75
+#: ../includes/widgets/carleader-infobox.php:80
+#: ../includes/widgets/footer_contact.php:93
+#: ../includes/widgets/footer_schedule.php:72
+#: ../includes/widgets/make-it-easy.php:91
+#: ../includes/widgets/our-staff-widget.php:73
+#: ../includes/widgets/slickslider.php:129
+#: ../includes/widgets/testimonial-widget.php:132
+#: ../includes/widgets/we-offer.php:112
+#: ../includes/widgets/weekly-specials-two.php:220
+#: ../includes/widgets/weekly-specials-two.php:328
+#: ../includes/widgets/weekly-specials.php:129
+msgid "Repeater List"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:72
+#: ../includes/widgets/carleader-about-tab.php:70
+#: ../includes/widgets/carleader-counter.php:113
+#: ../includes/widgets/carleader-faq.php:80
+#: ../includes/widgets/carleader-infobox.php:85
+#: ../includes/widgets/footer_contact.php:98
+#: ../includes/widgets/footer_schedule.php:77
+#: ../includes/widgets/make-it-easy.php:96
+#: ../includes/widgets/slickslider.php:134 ../includes/widgets/we-offer.php:117
+#: ../includes/widgets/weekly-specials-two.php:225
+#: ../includes/widgets/weekly-specials-two.php:333
+#: ../includes/widgets/weekly-specials.php:134
+msgid "Title #1"
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:73 ../includes/widgets/IconBox.php:77
+#: ../includes/widgets/carleader-about-tab.php:71
+#: ../includes/widgets/carleader-about-tab.php:75
+#: ../includes/widgets/carleader-counter.php:114
+#: ../includes/widgets/carleader-counter.php:118
+#: ../includes/widgets/carleader-faq.php:81
+#: ../includes/widgets/carleader-faq.php:85
+#: ../includes/widgets/carleader-infobox.php:86
+#: ../includes/widgets/carleader-infobox.php:90
+#: ../includes/widgets/footer_contact.php:99
+#: ../includes/widgets/footer_contact.php:103
+#: ../includes/widgets/footer_schedule.php:78
+#: ../includes/widgets/footer_schedule.php:82
+#: ../includes/widgets/make-it-easy.php:97
+#: ../includes/widgets/make-it-easy.php:101
+#: ../includes/widgets/slickslider.php:135
+#: ../includes/widgets/slickslider.php:139 ../includes/widgets/we-offer.php:118
+#: ../includes/widgets/we-offer.php:122
+#: ../includes/widgets/weekly-specials-two.php:226
+#: ../includes/widgets/weekly-specials-two.php:230
+#: ../includes/widgets/weekly-specials-two.php:334
+#: ../includes/widgets/weekly-specials-two.php:338
+#: ../includes/widgets/weekly-specials.php:135
+#: ../includes/widgets/weekly-specials.php:139
+msgid "Item content. Click the edit button to change this text."
+msgstr ""
+
+#: ../includes/widgets/IconBox.php:76
+#: ../includes/widgets/carleader-about-tab.php:74
+#: ../includes/widgets/carleader-counter.php:117
+#: ../includes/widgets/carleader-faq.php:84
+#: ../includes/widgets/carleader-infobox.php:89
+#: ../includes/widgets/footer_contact.php:102
+#: ../includes/widgets/footer_schedule.php:81
+#: ../includes/widgets/make-it-easy.php:100
+#: ../includes/widgets/slickslider.php:138 ../includes/widgets/we-offer.php:121
+#: ../includes/widgets/weekly-specials-two.php:229
+#: ../includes/widgets/weekly-specials-two.php:337
+#: ../includes/widgets/weekly-specials.php:138
+msgid "Title #2"
+msgstr ""
+
+#: ../includes/widgets/blog-mesonary.php:8
+msgid "Blog Mesonary"
+msgstr ""
+
+#: ../includes/widgets/blog-mesonary.php:20
+msgid "Blog"
+msgstr ""
+
+#: ../includes/widgets/blog-mesonary.php:26 ../includes/widgets/we-offer.php:74
+msgid "Extra Class"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:9
+msgid "CarLeader Browse Type"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:21
+msgid "browsVehicle"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:27
+#: ../includes/widgets/types-of-vehicle.php:42
+#: ../includes/widgets/weekly-specials-two.php:82
+#: ../includes/widgets/weekly-specials.php:42
+msgid "Select Layout"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:30
+#: ../includes/widgets/types-of-vehicle.php:45
+#: ../includes/widgets/weekly-specials-two.php:85
+#: ../includes/widgets/weekly-specials.php:45
+msgid "layout 1"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:31
+#: ../includes/widgets/types-of-vehicle.php:46
+#: ../includes/widgets/weekly-specials-two.php:86
+#: ../includes/widgets/weekly-specials.php:46
+msgid "layout 2"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:34
+#: ../includes/widgets/slickslider.php:44
+#: ../includes/widgets/types-of-vehicle.php:49
+#: ../includes/widgets/weekly-specials-two.php:89
+#: ../includes/widgets/weekly-specials.php:49
+msgid "layout_1"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:41
+#: ../includes/widgets/carleader-header.php:107
+#: ../includes/widgets/weekly-specials-two.php:132
+#: ../includes/widgets/weekly-specials.php:66
+msgid "Has Direct Link"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:49
+#: ../includes/widgets/carleader-header.php:127
+#: ../includes/widgets/weekly-specials-two.php:140
+#: ../includes/widgets/weekly-specials.php:74
+msgid "Direct Link Name"
+msgstr ""
+
+#: ../includes/widgets/brows-by-type.php:61
+#: ../includes/widgets/carleader-header.php:139
+#: ../includes/widgets/weekly-specials-two.php:152
+#: ../includes/widgets/weekly-specials.php:86
+msgid "Direct Link URL"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:16
+#: ../includes/widgets/caleader-product-list-addon.php:75
+msgid "Carleader Product List"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:82
+#: ../includes/widgets/carleader-counter.php:51
+#: ../includes/widgets/carleader-faq.php:27
+#: ../includes/widgets/carleader-header.php:53
+#: ../includes/widgets/carleader-infobox.php:28
+#: ../includes/widgets/carleader-news.php:77
+#: ../includes/widgets/carleader-reviews.php:44
+#: ../includes/widgets/carleader-services.php:45
+#: ../includes/widgets/footer_schedule.php:52
+#: ../includes/widgets/make-it-easy.php:60
+#: ../includes/widgets/testimonial-widget.php:41
+#: ../widgets/smart-contact-box-widget.php:86
+#: ../widgets/smart-posts-grid-widget.php:25
+msgid "Title"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:84
+#: ../includes/widgets/make-it-easy.php:62
+msgid "View Our Inventory"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:92
+msgid "Select layout"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:95
+msgid "With Slider"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:96
+msgid "Without Slider"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:106
+#: ../includes/widgets/weekly-specials-two.php:314
+msgid "Number Of Coloumns"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:109
+#: ../includes/widgets/testimonial-widget.php:88
+msgid "2"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:110
+#: ../includes/widgets/testimonial-widget.php:89
+msgid "3"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:111
+#: ../includes/widgets/testimonial-widget.php:90
+#: ../includes/widgets/testimonial-widget.php:93
+msgid "4"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:121
+msgid "Select Query"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:124
+msgid "All Products"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:125
+msgid "Only Sold"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:126
+msgid "Without Sold"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:127
+msgid "Without Price (0)"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:128
+msgid "Only Body Types"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:129
+msgid "Only Makes"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:130
+msgid "Only Fuel Types"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:140
+msgid "Body Type"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:151
+msgid "Makes"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:162
+msgid "Fuel Types"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:172
+#: ../includes/widgets/carleader-news.php:60
+#: ../includes/widgets/carleader-reviews.php:27
+#: ../includes/widgets/carleader-services.php:28
+#: ../includes/widgets/weekly-specials.php:55
+msgid "Posts per Page"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:184
+#: ../includes/widgets/carleader-news.php:89
+#: ../includes/widgets/carleader-reviews.php:56
+#: ../includes/widgets/carleader-services.php:57
+msgid "Sort By"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:187
+msgid "New First"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:188
+msgid "Old First"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:189
+msgid "Price (Low to High)"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:190
+msgid "Price (High to Low)"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:192
+#: ../includes/widgets/carleader-news.php:92
+#: ../includes/widgets/carleader-news.php:96
+#: ../includes/widgets/carleader-reviews.php:59
+#: ../includes/widgets/carleader-reviews.php:63
+#: ../includes/widgets/carleader-services.php:60
+#: ../includes/widgets/carleader-services.php:64
+msgid "desc"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:300
+msgid "test drive"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:340
+msgid "All-Wheel Drive"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:342
+msgid "Four-Wheel Drive"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:344
+msgid "Front-Wheel Drive"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:346
+msgid "Rear-Wheel Drive"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:352
+msgid "Automatic"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:354
+msgid "Manual"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:356
+msgid "Automated"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:358
+msgid "Variable"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:364
+msgid "Gasoline"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:366
+msgid "Diesel"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:368
+msgid "CNG"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:370
+msgid "LP"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:372
+msgid "Bio-diesel"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:374
+msgid "Ethanol"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:376
+msgid "Petrol"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:406
+msgid "Just Arrived:"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:410
+#: ../includes/widgets/caleader-product-list-addon.php:439
+msgid "HP:"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:422
+msgid "Related Header Image"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:435
+msgid "Great Deal!"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:472
+#: ../includes/widgets/caleader-product-list-addon.php:571
+msgid "GALLERY"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:508
+msgid "MSRP:"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:522
+msgid "Estimated Loan:"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:523
+msgid "/mo"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:527
+#: ../includes/widgets/weekly-specials-two.php:169
+#: ../includes/widgets/weekly-specials.php:102
+msgid "Request"
+msgstr ""
+
+#: ../includes/widgets/caleader-product-list-addon.php:588
+msgid "more info"
+msgstr ""
+
+#: ../includes/widgets/carleader-about-tab.php:14
+msgid "About Tab"
+msgstr ""
+
+#: ../includes/widgets/carleader-about-tab.php:29
+msgid "About tab"
+msgstr ""
+
+#: ../includes/widgets/carleader-about-tab.php:36
+msgid "Tab Category"
+msgstr ""
+
+#: ../includes/widgets/carleader-about-tab.php:38
+msgid "Architecture"
+msgstr ""
+
+#: ../includes/widgets/carleader-about-tab.php:45
+msgid "Tab Content"
+msgstr ""
+
+#: ../includes/widgets/carleader-about-tab.php:53
+#: ../includes/widgets/carleader-infobox.php:56
+#: ../includes/widgets/carleader-video.php:160
+#: ../includes/widgets/testimonial-widget.php:74
+msgid "Image"
+msgstr ""
+
+#: ../includes/widgets/carleader-about-tab.php:133
+msgid "about"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:8
+msgid "Carlader Counter"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:21
+#: ../includes/widgets/footer_contact.php:69
+#: ../includes/widgets/make-it-easy.php:69
+#: ../includes/widgets/parallax-image.php:21
+#: ../includes/widgets/weekly-specials-two.php:240
+msgid "Content"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:27
+#: ../includes/widgets/footer_contact.php:28
+#: ../includes/widgets/footer_schedule.php:28
+#: ../includes/widgets/make-it-easy.php:28
+#: ../includes/widgets/parallax-image.php:27
+msgid "Select Style"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:31
+#: ../includes/widgets/make-it-easy.php:32
+msgid "Style One"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:32
+#: ../includes/widgets/make-it-easy.php:33
+msgid "Style Two"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:44
+msgid "carleaderCounter"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:53
+msgid "Vehicles In Stock"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:60
+msgid "Start Point"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:71
+msgid "End Point"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:82
+msgid "2nd End Point"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:91
+msgid "Symbel"
+msgstr ""
+
+#: ../includes/widgets/carleader-counter.php:102
+msgid "eicon-counter"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:9
+msgid "CarLeader FAQ"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:21
+msgid "carleaderFAQ"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:29
+msgid "Buying a car with Car Leader"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:39
+msgid "Is Active?"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:48
+msgid "Questions"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:50
+msgid "Can I finance my car with Car Leader?"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:57
+msgid "Answer 1"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:59
+msgid ""
+" Yes! We help our customers save through our vast network of lending "
+"partners. We work with over 15 banks and financial institutions to make sure "
+"you get the best rate available."
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:66
+msgid "Answer 2"
+msgstr ""
+
+#: ../includes/widgets/carleader-faq.php:68
+msgid ""
+"  Yes! We help our customers save through our vast network of lending "
+"partners. We work with over 15 banks and financial institutions to make sure "
+"you get the best rate available.  The application process takes place online "
+"– simply find the car you want, click Start Purchase, choose Finance with "
+"Car Leader, and then enter some basic financial information. We'll call you "
+"with your terms once you've completed the form."
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:8
+msgid "Carleader Heading"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:20
+msgid "carleaderHeading"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:28
+msgid "Typography"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:37
+msgid "Show This Section On Deckstop"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:45
+msgid "Show This Section On Mobile"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:55
+msgid "Reasons to Buy From Car Leader"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:62
+msgid "Html Tag"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:65
+msgid "h1"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:66
+msgid "h2"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:67
+#: ../includes/widgets/carleader-header.php:73
+msgid "h3"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:68
+msgid "h4"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:69
+msgid "h5"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:70
+msgid "h6"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:80
+#: ../includes/widgets/carleader-infobox.php:37
+msgid "Subtitle"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:82
+msgid "We're here for whatever you need"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:89
+msgid "BG TEXT"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:98
+msgid "BG TEXT Class"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:115
+msgid "Hide On Mobile"
+msgstr ""
+
+#: ../includes/widgets/carleader-header.php:151
+#: ../includes/widgets/ws-short-struct.php:58
+msgid "CSS Classes "
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:8
+msgid "CarLeader Infobox"
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:20
+msgid "CarleaderInfobox"
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:30
+msgid "Buy a Yacht "
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:39
+msgid "No fee Agents!"
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:46
+msgid "Description"
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:49
+#: ../includes/widgets/ws-short-struct.php:31
+#: ../includes/widgets/ws-short-struct.php:41
+msgid "Default description"
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:50
+#: ../includes/widgets/ws-short-struct.php:32
+#: ../includes/widgets/ws-short-struct.php:42
+msgid "Type your description here"
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:66
+msgid "Icon URL"
+msgstr ""
+
+#: ../includes/widgets/carleader-infobox.php:68
+#: ../includes/widgets/carleader-video.php:136
+#: ../includes/widgets/make-it-easy.php:79
+#: ../includes/widgets/slickslider.php:117
+#: ../includes/widgets/types-of-vehicle.php:57
+msgid "https://your-link.com"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:13
+msgid "Carleader News"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:47
+msgid "carleader-news"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:53
+msgid "Category"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:71
+#: ../includes/widgets/carleader-reviews.php:38
+#: ../includes/widgets/carleader-services.php:39
+msgid "Order by"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:74
+#: ../includes/widgets/carleader-reviews.php:41
+#: ../includes/widgets/carleader-services.php:42
+#: ../widgets/smart-posts-grid-widget.php:31
+msgid "Date"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:75
+#: ../includes/widgets/carleader-news.php:83
+#: ../includes/widgets/carleader-reviews.php:42
+#: ../includes/widgets/carleader-reviews.php:50
+#: ../includes/widgets/carleader-services.php:43
+#: ../includes/widgets/carleader-services.php:51
+#: ../widgets/smart-posts-grid-widget.php:30
+msgid "ID"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:76
+#: ../includes/widgets/carleader-reviews.php:43
+#: ../includes/widgets/carleader-services.php:44
+#: ../includes/widgets/testimonial-widget.php:114
+msgid "Author"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:78
+#: ../includes/widgets/carleader-reviews.php:45
+#: ../includes/widgets/carleader-services.php:46
+msgid "Modified"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:79
+#: ../includes/widgets/carleader-reviews.php:46
+#: ../includes/widgets/carleader-services.php:47
+#: ../widgets/smart-posts-grid-widget.php:33
+msgid "Random"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:80
+#: ../includes/widgets/carleader-reviews.php:47
+#: ../includes/widgets/carleader-services.php:48
+msgid "Menu order"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:93
+#: ../includes/widgets/carleader-reviews.php:60
+#: ../includes/widgets/carleader-services.php:61
+msgid "asc"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:101
+msgid "Add Extra Class"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:108
+msgid "Display Placeholder Image"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:117
+msgid "Testimonial Avatar"
+msgstr ""
+
+#: ../includes/widgets/carleader-news.php:174
+#: ../includes/widgets/carleader-services.php:128
+msgid "No products found"
+msgstr ""
+
+#: ../includes/widgets/carleader-reviews.php:8
+msgid "Carleader Reviews"
+msgstr ""
+
+#: ../includes/widgets/carleader-reviews.php:20
+#: ../includes/widgets/carleader-services.php:21
+msgid "Car Leader Services"
+msgstr ""
+
+#: ../includes/widgets/carleader-reviews.php:130
+msgid "No Reviews found"
+msgstr ""
+
+#: ../includes/widgets/carleader-reviews.php:141
+msgid "more testimonials"
+msgstr ""
+
+#: ../includes/widgets/carleader-reviews.php:149
+msgid "Leave Your Review"
+msgstr ""
+
+#: ../includes/widgets/carleader-reviews.php:192
+msgid "5 Stars"
+msgstr ""
+
+#: ../includes/widgets/carleader-reviews.php:195
+msgid "leave your review"
+msgstr ""
+
+#: ../includes/widgets/carleader-services.php:9
+msgid "Carleader Services"
+msgstr ""
+
+#: ../includes/widgets/carleader-video.php:40
+msgid "Car Leader Video"
+msgstr ""
+
+#: ../includes/widgets/carleader-video.php:96
+#: ../includes/widgets/carleader-video.php:106
+msgid "Video"
+msgstr ""
+
+#: ../includes/widgets/carleader-video.php:102
+msgid "Video Type"
+msgstr ""
+
+#: ../includes/widgets/carleader-video.php:105
+msgid "Youtube"
+msgstr ""
+
+#: ../includes/widgets/carleader-video.php:108
+msgid "youtube"
+msgstr ""
+
+#: ../includes/widgets/carleader-video.php:114
+#: ../includes/widgets/make-it-easy.php:77
+#: ../includes/widgets/types-of-vehicle.php:55
+#: ../includes/widgets/ws-short-struct.php:49
+msgid "URL"
+msgstr ""
+
+#: ../includes/widgets/carleader-video.php:134
+msgid "YouTube Video URL"
+msgstr ""
+
+#: ../includes/widgets/carleader-video.php:154
+msgid "Image Overlay"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:10
+msgid "Caleader Footer Contact"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:32
+#: ../includes/widgets/footer_schedule.php:32
+#: ../widgets/smart-contact-box-widget.php:76
+msgid "Car"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:33
+#: ../includes/widgets/footer_schedule.php:33
+#: ../widgets/smart-contact-box-widget.php:78
+msgid "Motor"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:46
+#: ../includes/widgets/footer_schedule.php:45
+msgid "icon-149984"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:53
+msgid "Select Type"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:57
+#: ../includes/widgets/footer_schedule.php:63
+msgid "Text"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:58
+msgid "Phone"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:59
+#: ../widgets/smart-contact-box-widget.php:146
+msgid "Email"
+msgstr ""
+
+#: ../includes/widgets/footer_contact.php:81
+msgid "Url"
+msgstr ""
+
+#: ../includes/widgets/footer_schedule.php:10
+msgid "Caleader Footer Schedule"
+msgstr ""
+
+#: ../includes/widgets/make-it-easy.php:10
+msgid "Make It Easy"
+msgstr ""
+
+#: ../includes/widgets/make-it-easy.php:22
+msgid "MakeEasy"
+msgstr ""
+
+#: ../includes/widgets/make-it-easy.php:45
+msgid "Item List"
+msgstr ""
+
+#: ../includes/widgets/make-it-easy.php:52
+msgid "Main Icon"
+msgstr ""
+
+#: ../includes/widgets/make-it-easy.php:54
+msgid "icon-carsearch2"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:8
+msgid "Our Staff"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:20
+msgid "OurStaff"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:27
+msgid "Staff Image"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:37
+msgid "Staff Name"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:39
+msgid "Lazaro Gonzalez"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:46
+msgid "Staff Designation"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:48
+msgid "General Manager"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:55
+msgid "Staff Number"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:57
+msgid "405-895-2359"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:64
+msgid "Staff Email"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:66
+msgid "info@youremal.com"
+msgstr ""
+
+#: ../includes/widgets/our-staff-widget.php:76
+#: ../includes/widgets/our-staff-widget.php:77
+#: ../includes/widgets/our-staff-widget.php:78
+#: ../includes/widgets/testimonial-widget.php:135
+#: ../includes/widgets/testimonial-widget.php:136
+#: ../includes/widgets/testimonial-widget.php:137
+msgid "Item"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:8
+#: ../includes/widgets/parallax-image.php:43
+msgid "Parallax Image"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:31
+msgid "Image Parallax Left"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:32
+msgid "Image Parallax Right"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:49
+msgid "Image One"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:59
+msgid "Image Two"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:71
+msgid "icon-trophy"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:77
+msgid "Badge Text"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:79
+msgid "Best Dealer Award"
+msgstr ""
+
+#: ../includes/widgets/parallax-image.php:85
+msgid "Badge URL"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:15
+msgid "Slick Slider"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:30
+msgid "CarleaderSliclSlider"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:40
+#: ../includes/widgets/testimonial-widget.php:51
+msgid "Layout 1"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:41
+#: ../includes/widgets/testimonial-widget.php:52
+msgid "Layout 2"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:42
+#: ../includes/widgets/testimonial-widget.php:53
+msgid "Layout 3"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:50
+msgid "imageSlider Image"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:60
+msgid "CSS Image"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:70
+msgid "Caption One"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:79
+msgid "Caption Two"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:88
+msgid "Caption Three"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:97
+msgid "Caption Four"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:106
+msgid "Button text"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:108
+msgid "view inventory"
+msgstr ""
+
+#: ../includes/widgets/slickslider.php:115
+msgid "Button URL"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:23
+#: ../includes/widgets/testimonial-widget.php:35
+msgid "Testimonial"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:55
+msgid "box-reviews"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:61
+msgid "Title Position On Top"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:84
+msgid "Rating"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:87
+msgid "1"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:91
+msgid "5"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:99
+msgid "Comment"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:102
+msgid ""
+"Great treatment right form the get go. Was looking at a car that had just "
+"arrived on the lot so it wasn't immediately available for\n"
+"                a test drive and didn't have a price yet, but my salesman, "
+"kept me fully apprised of the situation. Offered a refundable deposit\n"
+"                until I could test drive it and make a decision. Great car, "
+"great sales team.\n"
+"                "
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:116
+msgid "Charles M. Worsham"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:123
+msgid "Designation"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:125
+msgid "Toyota C-HR Eclipse"
+msgstr ""
+
+#: ../includes/widgets/testimonial-widget.php:157
+msgid "testimonials"
+msgstr ""
+
+#: ../includes/widgets/types-of-vehicle.php:24
+msgid "CarLeader Type Vehicle"
+msgstr ""
+
+#: ../includes/widgets/types-of-vehicle.php:36
+msgid "typeVehicle"
+msgstr ""
+
+#: ../includes/widgets/types-of-vehicle.php:94
+#: ../includes/widgets/types-of-vehicle.php:134
+msgid "Offers"
+msgstr ""
+
+#: ../includes/widgets/types-of-vehicle.php:99
+#: ../includes/widgets/types-of-vehicle.php:139
+msgid "view cars"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:8
+msgid "We Offer"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:20
+msgid "WeOffer"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:30
+msgid "Layout Car"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:31
+msgid "Layout Motor"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:33
+msgid "tt-layout01"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:54
+msgid "Image Dekstop View"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:64
+msgid "Image Mobile View"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:76
+msgid "col-12 col-xl-6  ml-auto"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:85
+msgid "Icon Text"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:87
+msgid "Pre-Sale Preparation"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:97
+msgid "icon-4"
+msgstr ""
+
+#: ../includes/widgets/we-offer.php:105
+msgid ""
+"Before you sell your car, or trade it in to get something bigger or better, "
+"we can help you make your car look as good as possible before anyone comes "
+"to see it."
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:10
+msgid "CarLeader Weekly Two"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:96
+msgid "Select Car Types"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:99
+msgid "All Cars"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:100
+msgid "Sold Cars"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:103
+msgid "all"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:111
+msgid "Has All Tab"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:120
+msgid "All Tab Text"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:122
+#: ../includes/widgets/weekly-specials-two.php:191
+#: ../includes/widgets/weekly-specials-two.php:262
+msgid "All"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:165
+#: ../includes/widgets/weekly-specials.php:98
+msgid "Request Text"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:178
+msgid "Tabs"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:189
+msgid "Tab Title"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:192
+msgid "Type your button title here"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:198
+msgid "Show Post Count Under This Tab"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:206
+msgid "Posts Under This Tab"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:252
+msgid "Select Posts"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:260
+msgid "Tab of the post"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:263
+msgid "Name of the tab where the post will be shown"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:270
+msgid "Show external name for this post"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:279
+msgid "Name of the post"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:281
+msgid "External name of the post"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:291
+msgid "Show external image for this post"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:300
+msgid "Post image"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:317
+msgid "Big Image"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials-two.php:318
+msgid "Small Image"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials.php:11
+msgid "CarLeader Weekly"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials.php:24
+#: ../includes/widgets/weekly-specials.php:123
+msgid "ALL"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials.php:36
+msgid "CarleaderWeekly"
+msgstr ""
+
+#: ../includes/widgets/weekly-specials.php:108
+msgid "Big Image Position "
+msgstr ""
+
+#: ../includes/widgets/weekly-specials.php:120
+msgid "Group Titile"
+msgstr ""
+
+#: ../includes/widgets/ws-short-struct.php:10
+msgid "WS Short Structure"
+msgstr ""
+
+#: ../includes/widgets/ws-short-struct.php:22
+msgid "short-structure"
+msgstr ""
+
+#: ../includes/widgets/ws-short-struct.php:28
+msgid "First Part"
+msgstr ""
+
+#: ../includes/widgets/ws-short-struct.php:38
+msgid "Second part"
+msgstr ""
+
+#: ../includes/widgets/ws-short-struct.php:77
+msgid "read more"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:19
+msgctxt "Post Type General Name"
+msgid "Services"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:20
+msgctxt "Post Type Singular Name"
+msgid "Service"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:21
+msgid "Services"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:22
+msgid "Service"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:23
+msgid "Item Archives"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:24
+msgid "Parent Item:"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:25
+msgid "All Services"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:26
+#: ../post_type/custom-post-services.php:27
+msgid "Add New Service"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:28
+msgid "New Service Item"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:29
+msgid "Edit Service Item"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:30
+msgid "Update Service Item"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:31
+msgid "View Service Item"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:32
+msgid "Search Item"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:33
+msgid "Not found"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:34
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:35
+msgid "Featured Image"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:36
+msgid "Set featured image"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:37
+msgid "Remove featured image"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:38
+msgid "Use as featured image"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:39
+msgid "Insert into item"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:40
+msgid "Uploaded to this item"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:41
+msgid "Items list"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:42
+msgid "Items list navigation"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:43
+msgid "Filter items list"
+msgstr ""
+
+#: ../post_type/custom-post-services.php:58
+msgid "Description."
+msgstr ""
+
+#: ../templates/archive-carleader_services.php:5
+msgid "Our Services:"
+msgstr ""
+
+#: ../templates/archive-carleader_services.php:6
+msgid "What we offer for our clients:"
+msgstr ""
+
+#: ../templates/archive-carleader_services.php:47
+msgid "&laquo; Previous"
+msgstr ""
+
+#: ../templates/archive-carleader_services.php:48
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:7
+msgid "Add buttons "
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:14
+msgid "Button Widget For Carleader"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:32
+#: ../widgets/button-widget-carleader.php:62
+msgid "Button Txt for your widget"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:37
+msgid "URl :"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:41
+#: ../widgets/button-widget-carleader.php:71
+msgid "Shortcode Content:"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:45
+msgid "Icin Name:"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:49
+#: ../widgets/button-widget-carleader.php:79
+msgid "Class:"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:52
+#: ../widgets/button-widget-carleader.php:82
+msgid "Remove"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:57
+msgid "Add New"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:67
+msgid "URL:"
+msgstr ""
+
+#: ../widgets/button-widget-carleader.php:75
+msgid "Icon Name:"
+msgstr ""
+
+#: ../widgets/carleader-calculator-widget.php:13
+msgid "Carleader Calculator"
+msgstr ""
+
+#: ../widgets/carleader-calculator-widget.php:14
+msgid "To Calculate Payment Details"
+msgstr ""
+
+#: ../widgets/carleader-calculator-widget.php:98
+msgid "Financing Calculator"
+msgstr ""
+
+#: ../widgets/carleader-calculator-widget.php:128
+msgid "Calculate"
+msgstr ""
+
+#: ../widgets/carleader-calculator-widget.php:146
+msgid "Monthly Payment:"
+msgstr ""
+
+#: ../widgets/carleader-calculator-widget.php:147
+msgid "Total Interest Payment:"
+msgstr ""
+
+#: ../widgets/carleader-calculator-widget.php:148
+msgid "Total Amount to Pay:"
+msgstr ""
+
+#: ../widgets/mini-contact-widget.php:12
+msgid "MiniContact"
+msgstr ""
+
+#: ../widgets/service-post-widget.php:12
+msgid "Service Post"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:20
+msgid "Contact Information"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:46
+msgid "Car Leader Contact Box"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:48
+msgid "Side Bar Contact Box."
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:58
+msgid "Section"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:62
+msgid "Sidebar"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:64
+msgid "Footer"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:75
+msgid "Contact Box"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:80
+msgid "Yacht"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:94
+msgid "Sub Titile"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:100
+msgid "Address Title"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:107
+msgid "Address"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:113
+msgid "Department Address Title"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:120
+msgid "Department Address"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:126
+msgid "Phone Title"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:133
+msgid "Phone (Put comma separated values if multiple)"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:139
+msgid "Email Title"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:152
+msgid "Hours Sales Title"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:159
+msgid "Hours Sales"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:165
+msgid "Hours Service"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:171
+msgid "Closed Message"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:177
+msgid "Closed Message for Services"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:183
+msgid "Social Title"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:192
+msgid "Facebook"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:200
+msgid "Twitter"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:208
+msgid "Googleplus"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:216
+msgid "Instagram"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:301
+#: ../widgets/smart-contact-box-widget.php:396
+#: ../widgets/smart-contact-box-widget.php:490
+msgid "Sales Department"
+msgstr ""
+
+#: ../widgets/smart-contact-box-widget.php:315
+#: ../widgets/smart-contact-box-widget.php:419
+#: ../widgets/smart-contact-box-widget.php:508
+msgid "Service Department"
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:6
+msgid "Featured Posts"
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:13
+msgid "Car Leader Posts Grid"
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:15
+msgid "This widget will display posts grid on sidebars."
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:28
+msgid "Order By:"
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:32
+msgid "Comments"
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:36
+msgid "Order:"
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:38
+msgid "Descending"
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:39
+msgid "Ascending"
+msgstr ""
+
+#: ../widgets/smart-posts-grid-widget.php:44
+msgid "Posts Limit"
+msgstr ""

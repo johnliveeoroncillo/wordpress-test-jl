@@ -1,0 +1,9 @@
+@import "variables";
+
+.input-group .btn {
+    border-width: $btn-border-width;
+}
+
+.input-group .form-control {
+    border-radius: $border-radius;
+}

@@ -1,0 +1,30 @@
+/*
+Theme Name: Caleader Child
+Theme URI: http://https://smartdata.tonytemplates.com/caleader-child/
+Author: Websmirno
+Author URI: http://smartdatasoft.com
+Template:     caleader
+Description: Caleader Responsive WordPress Chiild Theme
+Version: 1.0
+License: This theme or plugin is comprised of two parts.(1) the PHP code and integrated HTML are licensed under the General Public License (GPL). You will find a copy of the GPL in the same directory as this text file. (2) All other parts, but not limited to the CSS code, images, and design are licensed according to the terms of your purchased license. Read more about licensing here: http://themeforest.net/licenses
+License URI: License.txt
+Text Domain: caleaderchild
+Tags: flexible-header,custom-background,custom-header,featured-images
+slug: caleaderchild
+
+*/
+
+.tt-block-title .tt-title, .tt-info-02 .tt-title {
+    font-family: 'Exo 2' !important;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+.tt-custom-bg-text {
+    font-size: 128px;
+    font-family: 'Exo 2';
+    margin-top: -50px;
+}

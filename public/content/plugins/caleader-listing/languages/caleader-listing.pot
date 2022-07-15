@@ -1,0 +1,1608 @@
+# Copyright (C) 2018 bestel
+# This file is distributed under the same license as the bestel package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bestel Core\n"
+"Report-Msgid-Bugs-To: https://support.smartdatasoft.com/\n"
+"POT-Creation-Date: 2020-08-27 18:55+0600\n"
+"PO-Revision-Date: 2018-04-19 18:25+0600\n"
+"Last-Translator: SmartDataSoft <support@smartdatasoft>\n"
+"Language-Team: SmartDataSoft <support@smartdatasoft>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Settings.php:18
+msgid "Settings"
+msgstr ""
+
+#: Settings.php:21 settings/general.php:4
+msgid "General"
+msgstr ""
+
+#: Settings.php:22
+msgid "Page Settings"
+msgstr ""
+
+#: Settings.php:23
+msgid "Listings"
+msgstr ""
+
+#: Settings.php:24
+msgid "Filtering"
+msgstr ""
+
+#: Settings.php:25 settings/enquiry_settings_general.php:4
+msgid "Enquiry Settings"
+msgstr ""
+
+#: extensions/mb-frontend-submission/inc/class-mb-frontend-form-shortcode.php:92
+msgid "Submit"
+msgstr ""
+
+#: extensions/mb-frontend-submission/inc/class-mb-frontend-form-shortcode.php:93
+msgid "Your post has been successfully submitted. Thank you."
+msgstr ""
+
+#: extensions/mb-frontend-submission/inc/class-mb-frontend-form.php:143
+msgid "Clear"
+msgstr ""
+
+#: extensions/mb-frontend-submission/inc/class-mb-frontend-form.php:144
+msgid "Default"
+msgstr ""
+
+#: extensions/mb-frontend-submission/inc/class-mb-frontend-form.php:145
+msgid "Select Color"
+msgstr ""
+
+#: extensions/mb-frontend-submission/inc/class-mb-frontend-form.php:146
+msgid "Current Color"
+msgstr ""
+
+#: extensions/mb-frontend-submission/inc/class-mb-frontend-post.php:133
+msgid "(No title)"
+msgstr ""
+
+#: extensions/mb-frontend-submission/inc/class-mb-frontend-post.php:148
+#: extensions/mb-frontend-submission/templates/post/thumbnail.php:16
+msgid "Thumbnail"
+msgstr ""
+
+#: extensions/mb-frontend-submission/templates/post/content.php:12
+msgid "Content"
+msgstr ""
+
+#: extensions/mb-frontend-submission/templates/post/date.php:12
+msgid "Date"
+msgstr ""
+
+#: extensions/mb-frontend-submission/templates/post/excerpt.php:12
+msgid "Excerpt"
+msgstr ""
+
+#: extensions/mb-frontend-submission/templates/post/title.php:12
+msgid "Title"
+msgstr ""
+
+#: extensions/mb-settings-page/inc/class-mb-settings-page.php:71
+msgid "Save Settings"
+msgstr ""
+
+#: extensions/mb-settings-page/inc/class-mb-settings-page.php:72
+msgid "Settings saved."
+msgstr ""
+
+#: extensions/mb-term-meta/inc/class-mb-term-meta-box.php:97
+msgid "Term added."
+msgstr ""
+
+#: extensions/meta-box-group/class-rwmb-group-field.php:60
+msgid "Are you sure you want to remove this group?"
+msgstr ""
+
+#: extensions/meta-box-group/class-rwmb-group-field.php:133
+msgid "Remove"
+msgstr ""
+
+#: extensions/meta-box-group/class-rwmb-group-field.php:311
+msgid "Entry {#}"
+msgstr ""
+
+#: extensions/meta-box-group/class-rwmb-group-field.php:311
+msgid "Entry"
+msgstr ""
+
+#: function-carleader-listing.php:9 search-form.php:618
+#: settings/filtering_fileds.php:24 settings/filtering_fileds.php:42
+#: settings/home_filtering_content.php:41 settings/listing-setup.php:45
+msgid "Year"
+msgstr ""
+
+#: function-carleader-listing.php:11 function-carleader-listing.php:16
+#: function-carleader-listing.php:21 function-carleader-listing.php:26
+#: function-carleader-listing.php:31 function-carleader-listing.php:36
+#: function-carleader-listing.php:52 function-carleader-listing.php:57
+#: function-carleader-listing.php:62
+msgid " (Recommended)"
+msgstr ""
+
+#: function-carleader-listing.php:14 includes/carleader-listing-cpt.php:77
+#: includes/fields/specification.php:11 search-form.php:668
+#: settings/filtering_fileds.php:25 settings/filtering_fileds.php:43
+#: settings/listing-setup.php:43
+msgid "Make"
+msgstr ""
+
+#: function-carleader-listing.php:19
+msgid "Description"
+msgstr ""
+
+#: function-carleader-listing.php:24 search-form.php:691
+#: settings/filtering_fileds.php:26 settings/filtering_fileds.php:44
+#: settings/listing-setup.php:44
+msgid "Model"
+msgstr ""
+
+#: function-carleader-listing.php:29 settings/filtering_fileds.php:32
+#: settings/filtering_fileds.php:52
+msgid "Color"
+msgstr ""
+
+#: function-carleader-listing.php:34
+msgid "Intereior Color"
+msgstr ""
+
+#: function-carleader-listing.php:39 search-form.php:795
+#: settings/filtering_fileds.php:49 settings/listing-setup.php:48
+#: settings/specifications.php:28
+msgid "Drivetrain"
+msgstr ""
+
+#: function-carleader-listing.php:45
+msgid "Transmission Type"
+msgstr ""
+
+#: function-carleader-listing.php:50
+msgid "VIN"
+msgstr ""
+
+#: function-carleader-listing.php:55 settings/listing-setup.php:49
+msgid "Engine"
+msgstr ""
+
+#: function-carleader-listing.php:60
+msgid "Stock Number"
+msgstr ""
+
+#: function-carleader-listing.php:65 settings/filtering_fileds.php:33
+#: settings/filtering_fileds.php:48 settings/listing-setup.php:50
+msgid "Fuel Type"
+msgstr ""
+
+#: function-carleader-listing.php:70
+msgid "Hours"
+msgstr ""
+
+#: function-carleader-listing.php:74
+msgid "Wheelbase"
+msgstr ""
+
+#: function-carleader-listing.php:78
+msgid "Wheels"
+msgstr ""
+
+#: function-carleader-listing.php:82
+msgid "Front Axle"
+msgstr ""
+
+#: function-carleader-listing.php:86
+msgid "Rear Axle"
+msgstr ""
+
+#: function-carleader-listing.php:90
+msgid "Ratio"
+msgstr ""
+
+#: function-carleader-listing.php:94
+msgid "Suspension"
+msgstr ""
+
+#: function-carleader-listing.php:98
+msgid "Brakes"
+msgstr ""
+
+#: function-carleader-listing.php:102
+msgid "Frame"
+msgstr ""
+
+#: function-carleader-listing.php:106
+msgid "Front Tires"
+msgstr ""
+
+#: function-carleader-listing.php:110
+msgid "Rear Tires"
+msgstr ""
+
+#: function-carleader-listing.php:114
+msgid "GVWR"
+msgstr ""
+
+#: function-carleader-listing.php:118
+msgid "Tare"
+msgstr ""
+
+#: function-carleader-listing.php:122
+msgid "Fuel Tanks"
+msgstr ""
+
+#: function-carleader-listing.php:126
+msgid "Code"
+msgstr ""
+
+#: function-carleader-listing.php:130
+msgid "Product"
+msgstr ""
+
+#: function-carleader-listing.php:134
+msgid "Shell Material"
+msgstr ""
+
+#: function-carleader-listing.php:138
+msgid "Options/ Description"
+msgstr ""
+
+#: function-carleader-listing.php:190 function-carleader-listing.php:307
+#: settings/specifications.php:33 templates/car-products.php:63
+#: templates/single-carleader-listing.php:73
+msgid "All-Wheel Drive"
+msgstr ""
+
+#: function-carleader-listing.php:192 function-carleader-listing.php:309
+msgid "Four-WHEEL DRIVE"
+msgstr ""
+
+#: function-carleader-listing.php:194 function-carleader-listing.php:311
+#: settings/specifications.php:35 templates/car-products.php:67
+#: templates/single-carleader-listing.php:77
+msgid "Front-Wheel Drive"
+msgstr ""
+
+#: function-carleader-listing.php:196 function-carleader-listing.php:313
+#: settings/specifications.php:36 templates/car-products.php:69
+#: templates/single-carleader-listing.php:79
+msgid "Rear-Wheel Drive"
+msgstr ""
+
+#: function-carleader-listing.php:198 function-carleader-listing.php:338
+#: settings/specifications.php:51
+msgid "Automatic Transmission"
+msgstr ""
+
+#: function-carleader-listing.php:200 function-carleader-listing.php:340
+#: settings/specifications.php:52
+msgid "Manual Transmission"
+msgstr ""
+
+#: function-carleader-listing.php:202 function-carleader-listing.php:342
+#: settings/specifications.php:53
+msgid "Automated Manual Transmission"
+msgstr ""
+
+#: function-carleader-listing.php:204 function-carleader-listing.php:344
+#: settings/specifications.php:54
+msgid "Continuously Variable Transmission"
+msgstr ""
+
+#: function-carleader-listing.php:206 function-carleader-listing.php:371
+#: settings/specifications.php:70 templates/car-products.php:87
+#: templates/single-carleader-listing.php:97
+msgid "Gasoline"
+msgstr ""
+
+#: function-carleader-listing.php:208 function-carleader-listing.php:373
+#: settings/specifications.php:71 templates/car-products.php:89
+#: templates/single-carleader-listing.php:99
+msgid "Diesel"
+msgstr ""
+
+#: function-carleader-listing.php:210 function-carleader-listing.php:375
+#: settings/specifications.php:72
+msgid "Compressed Natural Gas"
+msgstr ""
+
+#: function-carleader-listing.php:212 function-carleader-listing.php:377
+#: settings/specifications.php:73
+msgid "Liquefied Petroleum"
+msgstr ""
+
+#: function-carleader-listing.php:214 function-carleader-listing.php:379
+#: settings/specifications.php:74 templates/car-products.php:95
+#: templates/single-carleader-listing.php:105
+msgid "Bio-diesel"
+msgstr ""
+
+#: function-carleader-listing.php:216 function-carleader-listing.php:381
+#: settings/specifications.php:75 templates/car-products.php:97
+#: templates/single-carleader-listing.php:107
+msgid "Ethanol"
+msgstr ""
+
+#: function-carleader-listing.php:218 function-carleader-listing.php:383
+#: settings/specifications.php:69 templates/car-products.php:99
+#: templates/single-carleader-listing.php:109
+msgid "Petrol"
+msgstr ""
+
+#: function-carleader-listing.php:277 settings/specifications.php:15
+msgid "NEW"
+msgstr ""
+
+#: function-carleader-listing.php:279 settings/specifications.php:16
+msgid "CERTIFIED"
+msgstr ""
+
+#: function-carleader-listing.php:281 settings/specifications.php:17
+msgid "USED"
+msgstr ""
+
+#: function-carleader-listing.php:283 settings/specifications.php:18
+msgid "Sold Out"
+msgstr ""
+
+#: function-carleader-listing.php:571
+msgid "No Icon"
+msgstr ""
+
+#: function-formatting.php:14
+msgid "mi"
+msgstr ""
+
+#: function-formatting.php:14
+msgid "km"
+msgstr ""
+
+#: function-formatting.php:18
+msgid "mph"
+msgstr ""
+
+#: function-formatting.php:18
+msgid "kph"
+msgstr ""
+
+#: includes/CarleaderAdminColoumn.php:21
+msgid "Vehicle"
+msgstr ""
+
+#: includes/CarleaderAdminColoumn.php:22 includes/fields/details.php:5
+#: search-form.php:464 search-form.php:644 settings/filtering_fileds.php:28
+#: settings/filtering_fileds.php:46 settings/home_filtering_content.php:47
+msgid "Price"
+msgstr ""
+
+#: includes/CarleaderAdminColoumn.php:23 includes/fields/details.php:32
+#: search-form.php:551 search-form.php:831 settings/filtering_fileds.php:27
+#: settings/filtering_fileds.php:45 settings/specifications.php:10
+msgid "Condition"
+msgstr ""
+
+#: includes/CarleaderAdminColoumn.php:24
+msgid "Address"
+msgstr ""
+
+#: includes/CarleaderAdminColoumn.php:25
+msgid "Enquiries"
+msgstr ""
+
+#: includes/CarleaderAdminColoumn.php:134
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/ContachAdminColoumn.php:35
+msgid "Listing"
+msgstr ""
+
+#: includes/ContachAdminColoumn.php:36
+msgid "From Name"
+msgstr ""
+
+#: includes/ContachAdminColoumn.php:37
+msgid "From Email"
+msgstr ""
+
+#: includes/ContachAdminColoumn.php:47
+msgid "Edit Listing"
+msgstr ""
+
+#: includes/ContachAdminColoumn.php:122
+#, php-format
+msgid "Show all %s"
+msgstr ""
+
+#: includes/Contact.php:16
+msgid "ASK A QUESTION"
+msgstr ""
+
+#: includes/Contact.php:34
+#, php-format
+msgid "#%d: Enquiry on listing #%2$s"
+msgstr ""
+
+#: includes/Contact.php:80
+msgid "admin"
+msgstr ""
+
+#: includes/Contact.php:99 settings/enquiry_settings_mail.php:33
+#: settings/enquiry_settings_mail.php:46
+msgid "#{{enq_no}} Enuiry On {{listing_title}}"
+msgstr ""
+
+#: includes/Contact.php:112
+msgid "Hi {{reciepent_name}},"
+msgstr ""
+
+#: includes/Contact.php:113 settings/enquiry_settings_mail.php:65
+msgid "There has been a new enquiry on <strong>{{listing_title}}</strong>"
+msgstr ""
+
+#: includes/Contact.php:114 settings/enquiry_settings_mail.php:66
+msgid "ID: {{enq_id}}"
+msgstr ""
+
+#: includes/Contact.php:115
+msgid "Name: {{enq_name}} "
+msgstr ""
+
+#: includes/Contact.php:116
+msgid "Email: {{enquiry_email}} "
+msgstr ""
+
+#: includes/Contact.php:117
+msgid "Message: {{enquiry_message}} "
+msgstr ""
+
+#: includes/Contact.php:120 settings/enquiry_settings_mail.php:69
+msgid "Phone: {{enquiry_phone}}"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:23
+msgid "Caleader Listing"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:27
+#, php-format
+msgctxt "%s post type name"
+msgid "%s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:28
+#, php-format
+msgctxt "Singular %s post type name"
+msgid "%s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:29 includes/carleader-listing-cpt.php:32
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:30
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:31
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:33
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:34
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:35
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:36
+msgid "No listings found"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:37
+msgid "No listings found in Trash"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:39
+#, php-format
+msgctxt "%s post type menu name"
+msgid "%s"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:40
+#, php-format
+msgid "%s Filtered List"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:41
+#, php-format
+msgid "%s list navigation"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:42
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:70 includes/fields/details.php:51
+#: search-form.php:714 settings/listing-setup.php:46
+msgid "Body Type"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:71
+msgid "Body Types"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:78
+msgid "Makes"
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:88
+msgid "Search "
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:89
+msgid "All "
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:90
+msgid "Edit "
+msgstr ""
+
+#: includes/carleader-listing-cpt.php:91
+msgid "Add New "
+msgstr ""
+
+#: includes/contact-cpt.php:8
+msgctxt "Enquiry post type name"
+msgid "Listing Enquiries"
+msgstr ""
+
+#: includes/contact-cpt.php:9
+msgctxt "Singular enquiry post type name"
+msgid "Listing Enquiry"
+msgstr ""
+
+#: includes/contact-cpt.php:10 includes/contact-cpt.php:13
+msgid "New Listing Enquiry"
+msgstr ""
+
+#: includes/contact-cpt.php:11
+msgid "Add New Listing Enquiry"
+msgstr ""
+
+#: includes/contact-cpt.php:12
+msgid "Edit Listing Enquiry"
+msgstr ""
+
+#: includes/contact-cpt.php:14
+msgid "Listing Enquiries"
+msgstr ""
+
+#: includes/contact-cpt.php:15
+msgid "View Listing Enquiry"
+msgstr ""
+
+#: includes/contact-cpt.php:16
+msgid "Search Listing Enquiries"
+msgstr ""
+
+#: includes/contact-cpt.php:17
+msgid "No Listing Enquiries found"
+msgstr ""
+
+#: includes/contact-cpt.php:18
+msgid "No Listing Enquiries found in Trash"
+msgstr ""
+
+#: includes/contact-cpt.php:19
+msgctxt "enquiry post type menu name"
+msgid "Listing Enquiries"
+msgstr ""
+
+#: includes/contact-cpt.php:20
+msgid "Filter Listing Enquiries "
+msgstr ""
+
+#: includes/contact-cpt.php:21
+msgid "Listing Enquiry navigation"
+msgstr ""
+
+#: includes/contact-cpt.php:22
+msgid "Listing Enquiry"
+msgstr ""
+
+#: includes/fields/details.php:10
+msgid "Old Price"
+msgstr ""
+
+#: includes/fields/details.php:15
+msgid "Estimated Loan Payment"
+msgstr ""
+
+#: includes/fields/details.php:20 settings/measurments.php:19
+msgid "Miles"
+msgstr ""
+
+#: includes/fields/details.php:26
+msgid "Horse Power"
+msgstr ""
+
+#: includes/fields/details.php:39
+msgid "Have Promo?"
+msgstr ""
+
+#: includes/fields/details.php:46 settings/enquiry_settings_general.php:13
+#: settings/enquiry_settings_general.php:24
+#: settings/enquiry_settings_general.php:35
+#: settings/enquiry_settings_general.php:46 settings/enquiry_settings_mail.php:13
+#: settings/filtering_fileds.php:13 settings/general.php:13 settings/general.php:25
+#: settings/general.php:36 settings/general.php:58 settings/general.php:76
+#: settings/measurments.php:64 settings/page_settings.php:61
+#: settings/search-settings.php:13
+msgid "Yes"
+msgstr ""
+
+#: includes/fields/details.php:48 settings/enquiry_settings_general.php:14
+#: settings/enquiry_settings_general.php:25
+#: settings/enquiry_settings_general.php:36
+#: settings/enquiry_settings_general.php:47 settings/enquiry_settings_mail.php:14
+#: settings/filtering_fileds.php:14 settings/general.php:14 settings/general.php:26
+#: settings/general.php:37 settings/general.php:59 settings/general.php:77
+#: settings/measurments.php:65 settings/page_settings.php:62
+#: settings/search-settings.php:14
+msgid "No"
+msgstr ""
+
+#: includes/fields/details.php:60
+msgid "Details"
+msgstr ""
+
+#: includes/fields/frontForm.php:11
+msgid "Enquiry Id"
+msgstr ""
+
+#: includes/fields/frontForm.php:19
+msgid "Listing Name"
+msgstr ""
+
+#: includes/fields/frontForm.php:31
+msgid "Name*"
+msgstr ""
+
+#: includes/fields/frontForm.php:39
+msgid "E-mail*"
+msgstr ""
+
+#: includes/fields/frontForm.php:49
+msgid "Second Mail*"
+msgstr ""
+
+#: includes/fields/frontForm.php:55
+msgid "Second Mail"
+msgstr ""
+
+#: includes/fields/frontForm.php:67
+msgid "Phone Number*"
+msgstr ""
+
+#: includes/fields/frontForm.php:73
+msgid "Phone Number"
+msgstr ""
+
+#: includes/fields/frontForm.php:82
+msgid "Message*"
+msgstr ""
+
+#: includes/fields/frontForm.php:88
+msgid "Frontend Form"
+msgstr ""
+
+#: includes/fields/gallery.php:5
+msgid "Image Gallery"
+msgstr ""
+
+#: includes/fields/gallery.php:11
+msgid "Gallery"
+msgstr ""
+
+#: includes/fields/specification.php:40
+msgid "Specifications"
+msgstr ""
+
+#: includes/fields/vedio.php:5
+msgid "Video"
+msgstr ""
+
+#: includes/fields/vedio.php:17
+msgid "Video Type"
+msgstr ""
+
+#: includes/fields/vedio.php:27
+msgid "Video Url"
+msgstr ""
+
+#: includes/fields/vedio.php:32
+msgid "Image Upload"
+msgstr ""
+
+#: includes/fields/vedio.php:42
+msgid "Videos"
+msgstr ""
+
+#: search-form.php:40
+msgid "State, Zip, Town"
+msgstr ""
+
+#: search-form.php:41
+msgid "Find My Car"
+msgstr ""
+
+#: search-form.php:42
+msgid "More Refinements"
+msgstr ""
+
+#: search-form.php:60 settings/search-settings.php:22
+msgid "Search Our<br>Inventory"
+msgstr ""
+
+#: search-form.php:107 settings/home_filtering_content.php:11
+msgid "Car Search"
+msgstr ""
+
+#: search-form.php:111 settings/home_filtering_content.php:17
+msgid "Find your next car"
+msgstr ""
+
+#: search-form.php:134
+msgid "Close"
+msgstr ""
+
+#: search-form.php:305 search-form.php:322 settings/home_filtering_content.php:23
+msgid "cars"
+msgstr ""
+
+#: search-form.php:493
+msgid "reset filters"
+msgstr ""
+
+#: search-form.php:503
+msgid "filter"
+msgstr ""
+
+#: search-form.php:576
+msgid "Ext Color"
+msgstr ""
+
+#: search-form.php:596
+msgid "Int Color"
+msgstr ""
+
+#: search-form.php:733 settings/specifications.php:64
+msgid "Fuel Types"
+msgstr ""
+
+#: search-form.php:756
+msgid "Max Mileage"
+msgstr ""
+
+#: search-form.php:775 settings/filtering_fileds.php:31
+#: settings/filtering_fileds.php:50 settings/listing-setup.php:47
+msgid "Transmission"
+msgstr ""
+
+#: search-form.php:817 settings/home_filtering_content.php:29
+msgid "Select a Model"
+msgstr ""
+
+#: search-form.php:823 settings/home_filtering_content.php:35
+msgid "Select a Make"
+msgstr ""
+
+#: settings/enquiry_settings_general.php:9
+msgid "Has Phone Field"
+msgstr ""
+
+#: settings/enquiry_settings_general.php:20
+msgid "Require Phone Field"
+msgstr ""
+
+#: settings/enquiry_settings_general.php:31
+msgid "Has Secondary Email Field"
+msgstr ""
+
+#: settings/enquiry_settings_general.php:42
+msgid "Require Secondary Email Field"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:4
+msgid "Enquiry Mail Settings"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:9
+msgid "Send E-mail"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:20
+msgid "Sender Name"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:25
+msgid "Sender Email"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:30
+msgid "Recipient Name"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:31
+msgid "If empty then take the admin user name."
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:37
+msgid "Recipient E-mail"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:38
+msgid "If empty then take the admin email."
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:43
+msgid "Subject"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:45
+msgid "Use {{enq_no}} for enquiry id, {{listing_title}} for Product Title"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:50
+msgid "CC:"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:52 settings/enquiry_settings_mail.php:58
+msgid "Put new line separatd string if multiple."
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:56
+msgid "Bcc:"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:62
+msgid "Message"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:63
+msgid ""
+"Use {{reciepent_name}} for reciepent name, {{enq_id}} for enquiry id, "
+"{{listing_title}} for Product Title, {{enq_name}} for Name, {{enquiry_email}} "
+"for Email, {{enquiry_message}} for message, {{enquiry_phone}} for phone and "
+"{{date}} for Date.\" "
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:67
+msgid "Name: {{enq_name}}"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:68
+msgid "Email: {{enquiry_email}}"
+msgstr ""
+
+#: settings/enquiry_settings_mail.php:70
+msgid "Message: {{enquiry_message}}"
+msgstr ""
+
+#: settings/filtering_fileds.php:4
+msgid "Filtering Fields"
+msgstr ""
+
+#: settings/filtering_fileds.php:9
+msgid "Hompage Sticky Search"
+msgstr ""
+
+#: settings/filtering_fileds.php:20
+msgid "Homepage Filtering Fields"
+msgstr ""
+
+#: settings/filtering_fileds.php:29 settings/filtering_fileds.php:47
+msgid "Body Tyoe"
+msgstr ""
+
+#: settings/filtering_fileds.php:30 settings/filtering_fileds.php:51
+msgid "Odometer"
+msgstr ""
+
+#: settings/filtering_fileds.php:38
+msgid "Archive Filtering Fields"
+msgstr ""
+
+#: settings/filtering_fileds.php:53
+msgid "Interior Color"
+msgstr ""
+
+#: settings/general.php:9
+msgid "Can Add To Cart"
+msgstr ""
+
+#: settings/general.php:20
+msgid "Open Cart On Add Product"
+msgstr ""
+
+#: settings/general.php:22
+msgid "Only if you add to cart."
+msgstr ""
+
+#: settings/general.php:32
+msgid "Contact Button For The Product"
+msgstr ""
+
+#: settings/general.php:43
+msgid "Show Contact Button For"
+msgstr ""
+
+#: settings/general.php:47
+msgid "All Products"
+msgstr ""
+
+#: settings/general.php:48
+msgid "Only Products With Price 0 or \"Sold out\""
+msgstr ""
+
+#: settings/general.php:54
+msgid "Test Drive"
+msgstr ""
+
+#: settings/general.php:65
+msgid "Test Drive Button Text"
+msgstr ""
+
+#: settings/general.php:66
+msgid "Only if \"Test Drive\" option is checked to yes."
+msgstr ""
+
+#: settings/general.php:68 templates/car-products.php:17
+#: templates/single-carleader-listing.php:11
+msgid "test drive"
+msgstr ""
+
+#: settings/general.php:72
+msgid "Can Enquiry"
+msgstr ""
+
+#: settings/general.php:83
+msgid "Sold Out Badge"
+msgstr ""
+
+#: settings/home_filtering_content.php:4
+msgid "Homepage Filtering Content"
+msgstr ""
+
+#: settings/home_filtering_content.php:9
+msgid "Home Page Search Bar Top Text"
+msgstr ""
+
+#: settings/home_filtering_content.php:15
+msgid "Home Page Search Bar Bottom Text"
+msgstr ""
+
+#: settings/home_filtering_content.php:21
+msgid "Home Page Search Bar Count Text"
+msgstr ""
+
+#: settings/home_filtering_content.php:27
+msgid "Homepage Select Model Text"
+msgstr ""
+
+#: settings/home_filtering_content.php:33
+msgid "Homepage Select Make Text"
+msgstr ""
+
+#: settings/home_filtering_content.php:39
+msgid "Homepage Year Text"
+msgstr ""
+
+#: settings/home_filtering_content.php:45
+msgid "Homepage Price Text"
+msgstr ""
+
+#: settings/listing-setup.php:5
+msgid "Listing Setup"
+msgstr ""
+
+#: settings/listing-setup.php:10
+msgid "Custom Post Name"
+msgstr ""
+
+#: settings/listing-setup.php:16
+msgid "Listing Slug"
+msgstr ""
+
+#: settings/listing-setup.php:17
+msgid "What will be shown in the url box followed by the listing item name."
+msgstr ""
+
+#: settings/listing-setup.php:23
+msgid "Posts Per Page"
+msgstr ""
+
+#: settings/listing-setup.php:24
+msgid "How many posts to show in archive listing"
+msgstr ""
+
+#: settings/listing-setup.php:31
+msgid "Add to cart Button Text"
+msgstr ""
+
+#: settings/listing-setup.php:34 template-tags.php:51
+msgid "Add to Cart"
+msgstr ""
+
+#: settings/listing-setup.php:37
+msgid "Select Listing Title Format"
+msgstr ""
+
+#: settings/listing-setup.php:42
+msgid "Listing Title"
+msgstr ""
+
+#: settings/measurments.php:4
+msgid "Measurements"
+msgstr ""
+
+#: settings/measurments.php:9
+msgid "Just Arrived"
+msgstr ""
+
+#: settings/measurments.php:10
+msgid "How many Days to show Just Arrived tag in listing"
+msgstr ""
+
+#: settings/measurments.php:15
+msgid "Metric or Imperial"
+msgstr ""
+
+#: settings/measurments.php:20
+msgid "KiloMeters"
+msgstr ""
+
+#: settings/measurments.php:24
+msgid "Payment Currency"
+msgstr ""
+
+#: settings/measurments.php:25
+msgid "What Currency Payment"
+msgstr ""
+
+#: settings/measurments.php:30
+msgid "Numbers after decimal"
+msgstr ""
+
+#: settings/measurments.php:37
+msgid "Thousand Seperator"
+msgstr ""
+
+#: settings/measurments.php:43
+msgid "Decimal Seperator"
+msgstr ""
+
+#: settings/measurments.php:49
+msgid "Currency Position"
+msgstr ""
+
+#: settings/measurments.php:53
+msgid "Before"
+msgstr ""
+
+#: settings/measurments.php:54
+msgid "After"
+msgstr ""
+
+#: settings/measurments.php:55
+msgid "Before Space"
+msgstr ""
+
+#: settings/measurments.php:56
+msgid "After Space"
+msgstr ""
+
+#: settings/measurments.php:60
+msgid "Show Trailing Zeros After Decimal"
+msgstr ""
+
+#: settings/page_settings.php:4
+msgid "Archive Page Settings"
+msgstr ""
+
+#: settings/page_settings.php:9 settings/page_settings.php:14
+msgid "Select a page"
+msgstr ""
+
+#: settings/page_settings.php:21
+msgid "Archive Style"
+msgstr ""
+
+#: settings/page_settings.php:25
+msgid "Left Sidebar"
+msgstr ""
+
+#: settings/page_settings.php:26
+msgid "No Sidebar"
+msgstr ""
+
+#: settings/page_settings.php:32
+msgid "Archive Layout"
+msgstr ""
+
+#: settings/page_settings.php:36
+msgid "Grid"
+msgstr ""
+
+#: settings/page_settings.php:37
+msgid "List"
+msgstr ""
+
+#: settings/page_settings.php:43
+msgid "Archive Nage Name"
+msgstr ""
+
+#: settings/page_settings.php:44 settings/page_settings.php:51
+msgid "Name of the listing archive page."
+msgstr ""
+
+#: settings/page_settings.php:46 templates/archive-carleader-listing.php:12
+#: templates/single-carleader-listing.php:6 templates/taxonomy-body-type.php:13
+#: templates/taxonomy-make-brand.php:13
+msgid "Inventory"
+msgstr ""
+
+#: settings/page_settings.php:50
+msgid "Archive Page Description"
+msgstr ""
+
+#: settings/page_settings.php:53 templates/archive-carleader-listing.php:15
+#: templates/taxonomy-body-type.php:16 templates/taxonomy-make-brand.php:16
+msgid "New and Used Inventory Listings:"
+msgstr ""
+
+#: settings/page_settings.php:57
+msgid "Layout Selector"
+msgstr ""
+
+#: settings/page_settings.php:68
+msgid "Inventory Ordering"
+msgstr ""
+
+#: settings/page_settings.php:72 templates/loop/orderby.php:26
+msgid "New First"
+msgstr ""
+
+#: settings/page_settings.php:73 templates/loop/orderby.php:27
+msgid "Old First"
+msgstr ""
+
+#: settings/page_settings.php:74 templates/loop/orderby.php:28
+msgid "Price (Low to High)"
+msgstr ""
+
+#: settings/page_settings.php:75 templates/loop/orderby.php:29
+msgid "Price (High to Low)"
+msgstr ""
+
+#: settings/page_settings.php:81
+msgid "Fuel Icon"
+msgstr ""
+
+#: settings/page_settings.php:88
+msgid "Miles Icon"
+msgstr ""
+
+#: settings/page_settings.php:95
+msgid "Transmission Icon"
+msgstr ""
+
+#: settings/search-settings.php:4
+msgid "Archive Filtering Content"
+msgstr ""
+
+#: settings/search-settings.php:9
+msgid "Show Result Count"
+msgstr ""
+
+#: settings/search-settings.php:20
+msgid "Inventory Page Search Text"
+msgstr ""
+
+#: settings/search-settings.php:26
+msgid "Filter Text"
+msgstr ""
+
+#: settings/search-settings.php:28
+msgid "Filter"
+msgstr ""
+
+#: settings/search-settings.php:32
+msgid "Reset Filter Text"
+msgstr ""
+
+#: settings/search-settings.php:34
+msgid "Reset Filters"
+msgstr ""
+
+#: settings/single_page_settings.php:4
+msgid "Single Page Settings"
+msgstr ""
+
+#: settings/single_page_settings.php:9
+msgid "Interested Section Text"
+msgstr ""
+
+#: settings/single_page_settings.php:11 templates/single-carleader-listing.php:26
+msgid "You May Also Be Interested In"
+msgstr ""
+
+#: settings/single_page_settings.php:15
+msgid "Single Page Licensing Text"
+msgstr ""
+
+#: settings/single_page_settings.php:17 templates/single-carleader-listing.php:21
+msgid "Taxes & Licensing included"
+msgstr ""
+
+#: settings/single_page_settings.php:21
+msgid "Contact Button Text"
+msgstr ""
+
+#: settings/single_page_settings.php:22
+msgid "Only if \"Contact Button For The Product\" option is checked to yes."
+msgstr ""
+
+#: settings/single_page_settings.php:24 templates/single-carleader-listing.php:379
+#: templates/single-carleader-listing.php:401
+#: templates/single-carleader-listing.php:856
+#: templates/single-carleader-listing.php:879
+msgid "Contact Us"
+msgstr ""
+
+#: settings/single_page_settings.php:28
+msgid "Contact Button Url"
+msgstr ""
+
+#: settings/single_page_settings.php:29
+msgid ""
+"Only if \"Contact Button For The Product\" option is checked to yes. "
+"\"#contact_now\" will scroll down to the enquiry form. Other links will take to "
+"the link"
+msgstr ""
+
+#: settings/specifications.php:5
+msgid "Speciffications"
+msgstr ""
+
+#: settings/specifications.php:11
+msgid "Condition of the Car"
+msgstr ""
+
+#: settings/specifications.php:22
+msgid "Additional Conditions"
+msgstr ""
+
+#: settings/specifications.php:23
+msgid "Put Your Extra Conditions In a New Line Spearated String"
+msgstr ""
+
+#: settings/specifications.php:29
+msgid "Drivetrain of the Car"
+msgstr ""
+
+#: settings/specifications.php:34 templates/car-products.php:65
+#: templates/single-carleader-listing.php:75
+msgid "Four-Wheel Drive"
+msgstr ""
+
+#: settings/specifications.php:40
+msgid "Additional Drivetrains"
+msgstr ""
+
+#: settings/specifications.php:41
+msgid "Put Your Extra Drivetrains In a New Line Spearated String"
+msgstr ""
+
+#: settings/specifications.php:46
+msgid "Transmission Types"
+msgstr ""
+
+#: settings/specifications.php:47
+msgid "Transmission types of the Cars"
+msgstr ""
+
+#: settings/specifications.php:58
+msgid "Additional Transmission Types"
+msgstr ""
+
+#: settings/specifications.php:59
+msgid "Put Your Extra Transmission Types In a New Line Spearated String"
+msgstr ""
+
+#: settings/specifications.php:65
+msgid "Fuel types of the Cars"
+msgstr ""
+
+#: settings/specifications.php:79
+msgid "Additional Fuel Types Types"
+msgstr ""
+
+#: settings/specifications.php:80
+msgid "Put Your Extra Fuel Types Types In a New Line Spearated String"
+msgstr ""
+
+#: templates/archive-carleader-listing.php:98 templates/taxonomy-body-type.php:111
+#: templates/taxonomy-make-brand.php:110
+msgid "Search"
+msgstr ""
+
+#: templates/archive-carleader-listing.php:102 templates/taxonomy-body-type.php:118
+#: templates/taxonomy-make-brand.php:117
+msgid "Search for:"
+msgstr ""
+
+#: templates/archive-carleader-listing.php:103 templates/taxonomy-body-type.php:121
+#: templates/taxonomy-make-brand.php:120
+msgid "Search …"
+msgstr ""
+
+#: templates/archive-carleader-listing.php:106 templates/taxonomy-body-type.php:126
+#: templates/taxonomy-make-brand.php:125
+msgid "search"
+msgstr ""
+
+#: templates/car-products.php:75 templates/single-carleader-listing.php:85
+msgid "Automatic"
+msgstr ""
+
+#: templates/car-products.php:77 templates/single-carleader-listing.php:87
+msgid "Manual"
+msgstr ""
+
+#: templates/car-products.php:79 templates/single-carleader-listing.php:89
+msgid "Automated"
+msgstr ""
+
+#: templates/car-products.php:81 templates/single-carleader-listing.php:91
+msgid "Variable"
+msgstr ""
+
+#: templates/car-products.php:91 templates/single-carleader-listing.php:101
+msgid "CNG"
+msgstr ""
+
+#: templates/car-products.php:93 templates/single-carleader-listing.php:103
+msgid "LP"
+msgstr ""
+
+#: templates/car-products.php:134
+msgid "Just Arrived:"
+msgstr ""
+
+#: templates/car-products.php:138 templates/car-products.php:166
+msgid "HP:"
+msgstr ""
+
+#: templates/car-products.php:149
+msgid "Related Header Image"
+msgstr ""
+
+#: templates/car-products.php:162 templates/single-carleader-listing.php:209
+#: templates/single-carleader-listing.php:224
+#: templates/single-carleader-listing.php:915
+msgid "Great Deal!"
+msgstr ""
+
+#: templates/car-products.php:197 templates/car-products.php:318
+msgid "GALLERY"
+msgstr ""
+
+#: templates/car-products.php:234
+msgid "MSRP:"
+msgstr ""
+
+#: templates/car-products.php:248
+msgid "Estimated Loan:"
+msgstr ""
+
+#: templates/car-products.php:249 templates/single-carleader-listing.php:421
+#: templates/single-carleader-listing.php:896
+msgid "/mo"
+msgstr ""
+
+#: templates/car-products.php:252 templates/single-carleader-listing.php:394
+#: templates/single-carleader-listing.php:871
+msgid "Request"
+msgstr ""
+
+#: templates/car-products.php:340 templates/single-carleader-listing.php:443
+#: templates/single-carleader-listing.php:745
+msgid "Fuel Type:"
+msgstr ""
+
+#: templates/car-products.php:346 templates/single-carleader-listing.php:455
+#: templates/single-carleader-listing.php:759
+msgid "Transmission:"
+msgstr ""
+
+#: templates/car-products.php:352 templates/single-carleader-listing.php:468
+#: templates/single-carleader-listing.php:779
+msgid "Color:"
+msgstr ""
+
+#: templates/car-products.php:358 templates/single-carleader-listing.php:462
+#: templates/single-carleader-listing.php:766
+msgid "Drive Type:"
+msgstr ""
+
+#: templates/car-products.php:369 templates/single-carleader-listing.php:474
+#: templates/single-carleader-listing.php:786
+msgid "Int. Color:"
+msgstr ""
+
+#: templates/car-products.php:375 templates/single-carleader-listing.php:480
+#: templates/single-carleader-listing.php:793
+msgid "VIN:"
+msgstr ""
+
+#: templates/car-products.php:381 templates/single-carleader-listing.php:486
+#: templates/single-carleader-listing.php:799
+msgid "Engine:"
+msgstr ""
+
+#: templates/car-products.php:387 templates/single-carleader-listing.php:492
+#: templates/single-carleader-listing.php:806
+msgid "Stock Number:"
+msgstr ""
+
+#: templates/car-products.php:398
+msgid "more info"
+msgstr ""
+
+#: templates/loop/orderby.php:59
+msgid "Results of "
+msgstr ""
+
+#: templates/single-carleader-listing.php:238
+msgid "Single Image"
+msgstr ""
+
+#: templates/single-carleader-listing.php:327
+#: templates/single-carleader-listing.php:823
+msgid "Contact Us About this Car"
+msgstr ""
+
+#: templates/single-carleader-listing.php:420
+#: templates/single-carleader-listing.php:895
+msgid "Estimated Loan"
+msgstr ""
+
+#: templates/single-carleader-listing.php:426
+#: templates/single-carleader-listing.php:724
+msgid "Options"
+msgstr ""
+
+#: templates/single-carleader-listing.php:432
+#: templates/single-carleader-listing.php:732
+msgid "Body Type:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:437
+#: templates/single-carleader-listing.php:738
+msgid "Mileage:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:449
+#: templates/single-carleader-listing.php:752
+msgid "Year:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:502
+msgid "Category:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:514
+msgid "Hours:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:525
+msgid "Wheelbase:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:536
+msgid "Wheels:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:547
+msgid "Front Axle:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:558
+msgid "Rear Axle:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:569
+msgid "Ratio:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:580
+msgid "Suspension :"
+msgstr ""
+
+#: templates/single-carleader-listing.php:591
+msgid "Brakes:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:602
+msgid "Frame:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:613
+msgid "Front Tires:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:624
+msgid "Rear Tires:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:635
+msgid "GVWR:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:646
+msgid "Tare:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:657
+msgid "Fuel Tanks:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:668
+msgid "Code:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:679
+msgid "Product:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:690
+msgid "Shell Material:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:701
+msgid "Options/ Description:"
+msgstr ""
+
+#: templates/single-carleader-listing.php:940
+msgid "MORE PHOTOS"
+msgstr ""

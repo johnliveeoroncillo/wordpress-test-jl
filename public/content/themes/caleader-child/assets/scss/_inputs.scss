@@ -1,0 +1,71 @@
+.search-field {
+    @extend .form-control;
+    border: 1.5px solid $white-100 !important;
+    background-color: transparent !important;
+    border-radius: $border-radius !important;    
+
+    @include form-control-hover;
+}
+
+.wpcf7 {
+    p {
+        color: #121127;
+        text-align: right;
+        width: 100%;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 5px;
+
+        #count {
+            font-weight: 400;
+        }
+    }
+
+    .form-row {
+        padding-bottom: 2.2em;
+        position: relative;
+  
+        input, select, textarea {
+            &.form-control {
+                padding: 12px;
+                border-radius: 6px;
+                height: 48px;
+    
+                &:hover {
+                    border-color: $red-300;
+                }
+
+                &.error {
+                    border-color: $red-300;
+                }
+
+                &::placeholder {
+                    color: $gray-700;
+                }
+            }
+        }
+
+        label {
+            &.error {
+                position: absolute;
+                bottom: 0;
+                color: $red-300;
+                font-family: 'Exo 2';
+                font-weight: 400;
+                right: 0;
+                font-size: 14px;
+            }
+        }
+    }
+  }
+  
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }

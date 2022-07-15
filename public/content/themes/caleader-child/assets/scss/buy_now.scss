@@ -1,0 +1,14 @@
+@import 'main';
+
+//TODO: create elementor
+body .elementor-section.elementor-section-boxed > .elementor-container {    
+    @extend .container;
+}
+
+.btn-back {
+    cursor: pointer;
+}
+
+.CaptionCont.SelectBox {
+    padding-top: 10px !important;    
+  }

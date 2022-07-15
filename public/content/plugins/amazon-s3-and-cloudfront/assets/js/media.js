@@ -1,6 +1,6 @@
 var test = {};
 
-(function( $, _ ) {
+( function( $, _ ) {
 
 	// Local reference to the WordPress media namespace.
 	var media = wp.media;
@@ -26,9 +26,9 @@ var test = {};
 		},
 
 		fetchS3Details: function( id ) {
-			wp.ajax.send( 'as3cf_get_attachment_s3_details', {
+			wp.ajax.send( 'as3cf_get_attachment_provider_details', {
 				data: {
-					_nonce: as3cf_media.nonces.get_attachment_s3_details,
+					_nonce: as3cf_media.nonces.get_attachment_provider_details,
 					id: id
 				}
 			} ).done( _.bind( this.renderView, this ) );
@@ -59,11 +59,11 @@ var test = {};
 		},
 
 		renderS3Details: function( response ) {
-			if ( ! response || ! response.s3object ) {
+			if ( ! response || ! response.provider_object ) {
 				return;
 			}
 			var $detailsHtml = this.$el.find( '.attachment-info .details' );
-			var html = this.generateDetails( response, [ 'bucket', 'key', 'region', 'acl' ] );
+			var html = this.generateDetails( response, [ 'provider_name', 'region', 'bucket', 'key', 'acl', 'is_verified' ] );
 			$detailsHtml.append( html );
 		},
 
@@ -72,21 +72,31 @@ var test = {};
 			var template = _.template( '<div class="<%= key %>"><strong><%= label %>:</strong> <%= value %></div>' );
 
 			_( keys ).each( function( key ) {
-				if ( response.s3object[ key ] ) {
-					var value = response.s3object[ key ];
+				if ( response.provider_object[ key ] ) {
+					var value = response.provider_object[ key ];
 
 					if ( 'acl' === key ) {
-						value = response.s3object[ key ]['name'];
+						value = response.provider_object[ key ][ 'name' ];
 
 						if ( response.acl_toggle ) {
 							var acl_template = _.template( '<a href="#" id="as3cfpro-toggle-acl" title="<%= title %>" data-currentACL="<%= acl %>"><%= value %></a>' );
 
 							value = acl_template( {
-								title: response.s3object[ key ][ 'title' ],
-								acl: response.s3object[ key ][ 'acl' ],
+								title: response.provider_object[ key ][ 'title' ],
+								acl: response.provider_object[ key ][ 'acl' ],
 								value: value
 							} );
 						}
+					}
+
+					if ( 'is_verified' === key ) {
+						value = Boolean( parseInt( value ) );
+
+						if ( value ) {
+							return;
+						}
+
+						value = as3cf_media.strings[ 'not_verified' ];
 					}
 
 					html += template( {
@@ -112,7 +122,7 @@ var test = {};
 			event.preventDefault();
 
 			var toggle = $( '#as3cfpro-toggle-acl' );
-			var currentACL = toggle.attr( 'data-currentACL' );
+			var currentACL = toggle.data( 'currentacl' );
 			var newACL = as3cfpro_media.settings.private_acl;
 
 			toggle.hide();
@@ -123,12 +133,12 @@ var test = {};
 			}
 
 			wp.ajax.send( 'as3cfpro_update_acl', {
-					data: {
-						_nonce: as3cfpro_media.nonces.update_acl,
-						id: this.model.get( 'id' ),
-						acl: newACL
-					}
-				} )
+				data: {
+					_ajax_nonce: as3cfpro_media.nonces.singular_update_acl,
+					id: this.model.get( 'id' ),
+					acl: newACL
+				}
+			} )
 				.done( _.bind( this.updateACL, this ) )
 				.fail( _.bind( this.renderACLError, this ) );
 		},
@@ -140,11 +150,14 @@ var test = {};
 		},
 
 		updateACL: function( response ) {
-			if ( 'undefined' === typeof response.acl_display || 'undefined' === typeof response.title || 'undefined' === typeof response.acl ) {
+			if ( null == response.acl_display || null == response.title || null == response.acl || null == response.url ) {
 				this.renderACLError();
 
 				return;
 			}
+
+			this.model.set( 'url', response.url );
+			this.render();
 
 			var toggle = $( '#as3cfpro-toggle-acl' );
 
@@ -152,9 +165,9 @@ var test = {};
 
 			toggle.text( response.acl_display );
 			toggle.attr( 'title', response.title );
-			toggle.attr( 'data-currentACL', response.acl );
+			toggle.data( 'currentacl', response.acl );
 			toggle.show();
 		}
 	} );
 
-})( jQuery, _ );
+} )( jQuery, _ );

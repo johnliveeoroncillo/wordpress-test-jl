@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'caleader';
+  src:  url('fonts/caleader.eot?r5a66e');
+  src:  url('fonts/caleader.eot?r5a66e#iefix') format('embedded-opentype'),
+    url('fonts/caleader.ttf?r5a66e') format('truetype'),
+    url('fonts/caleader.woff?r5a66e') format('woff'),
+    url('fonts/caleader.svg?r5a66e#caleader') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'caleader' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-handsshake:before {
+  content: "\e900";
+}
+.icon-icon:before {
+  content: "\e901";
+}
+.icon-mail:before {
+  content: "\e902";
+}
+.icon-15874:before {
+  content: "\e903";
+}
+.icon-user:before {
+  content: "\e904";
+}
+.icon-cart:before {
+  content: "\e905";
+}
+.icon-addcar:before {
+  content: "\e906";
+}
+.icon-mail1:before {
+  content: "\e907";
+}
+.icon-menu:before {
+  content: "\e908";
+}
+.icon-musica-searcher:before {
+  content: "\e909";
+}
+.icon-car-washing-machine:before {
+  content: "\e90a";
+}
+.icon-financing:before {
+  content: "\e90b";
+}
+.icon-carsearch2:before {
+  content: "\e90c";
+}
+.icon-payment:before {
+  content: "\e90d";
+}
+.icon-tradein:before {
+  content: "\e90e";
+}
+.icon-tradein2:before {
+  content: "\e90f";
+}
+.icon-testdrive:before {
+  content: "\e910";
+}
+.icon-photo-camera:before {
+  content: "\e911";
+}
+.icon-compare:before {
+  content: "\e912";
+}
+.icon-play:before {
+  content: "\e913";
+}
+.icon-price-tag1:before {
+  content: "\e914";
+}
+.icon-refresh-button:before {
+  content: "\e915";
+}
+.icon-left-arrow:before {
+  content: "\e916";
+}
+.icon-right-arrow:before {
+  content: "\e917";
+}
+.icon-right-arrow1:before {
+  content: "\e918";
+}
+.icon-road:before {
+  content: "\e919";
+}
+.icon-soldout:before {
+  content: "\e91a";
+}
+.icon-star:before {
+  content: "\e91b";
+}
+.icon-user1:before {
+  content: "\e91c";
+}
+.icon-vehicles:before {
+  content: "\e91d";
+}
+.icon-report:before {
+  content: "\e91e";
+}
+.icon-price-tag:before {
+  content: "\e91f";
+}
+.icon-awards:before {
+  content: "\e920";
+}
+.icon-customers:before {
+  content: "\e921";
+}
+.icon-staff:before {
+  content: "\e922";
+}
+.icon-3665:before {
+  content: "\e923";
+}
+.icon-8800:before {
+  content: "\e924";
+}
+.icon-226234:before {
+  content: "\e925";
+}
+.icon-733613:before {
+  content: "\e926";
+}
+.icon-84466:before {
+  content: "\e927";
+}
+.icon-546419:before {
+  content: "\e928";
+}
+.icon-130415:before {
+  content: "\e929";
+}
+.icon-149984:before {
+  content: "\e92a";
+}
+.icon-arrowdown:before {
+  content: "\e92b";
+}
+.icon-arrowup:before {
+  content: "\e92c";
+}
+.icon-arrowsdown:before {
+  content: "\e92d";
+}
+.icon-arrowsup:before {
+  content: "\e92e";
+}
+.icon-attachment:before {
+  content: "\e92f";
+}
+.icon-calculator:before {
+  content: "\e930";
+}
+.icon-carsearch:before {
+  content: "\e931";
+}
+.icon-check-mark:before {
+  content: "\e932";
+}
+.icon-close:before {
+  content: "\e933";
+}
+.icon-done-tick:before {
+  content: "\e934";
+}
+.icon-filer:before {
+  content: "\e935";
+}
+.icon-grid:before {
+  content: "\e936";
+}
+.icon-listing:before {
+  content: "\e937";
+}
+.icon-5:before {
+  content: "\e938";
+}
+.icon-618867:before {
+  content: "\e939";
+}
+.icon-tools:before {
+  content: "\e93a";
+}
+.icon-y1:before {
+  content: "\e93b";
+}
+.icon-y2:before {
+  content: "\e93c";
+}
+.icon-y3:before {
+  content: "\e93d";
+}
+.icon-y4:before {
+  content: "\e93e";
+}
+.icon-y5:before {
+  content: "\e93f";
+}
+.icon-1:before {
+  content: "\e940";
+}
+.icon-2:before {
+  content: "\e941";
+}
+.icon-3:before {
+  content: "\e942";
+}
+.icon-4:before {
+  content: "\e943";
+}
+.icon-inventory:before {
+  content: "\e944";
+}
+.icon-financing1:before {
+  content: "\e945";
+}
+.icon-tradein1:before {
+  content: "\e946";
+}
+.icon-payment1:before {
+  content: "\e947";
+}
+.icon-trophy:before {
+  content: "\e948";
+}
+.icon-118669:before {
+  content: "\e949";
+}
+.icon-2087677:before {
+  content: "\e94a";
+}
+.icon-565374:before {
+  content: "\e94b";
+}
+.icon-pause:before {
+  content: "\ea16";
+}
+.icon-pencil:before {
+  content: "\e94c";
+}
+.icon-pencil2:before {
+  content: "\e94d";
+}
+.icon-lifebuoy:before {
+  content: "\e94e";
+}
+.icon-phone:before {
+  content: "\e94f";
+}
+.icon-phone-hang-up:before {
+  content: "\e950";
+}
+.icon-printer:before {
+  content: "\e954";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-hammer2:before {
+  content: "\e9a8";
+}
+.icon-tongue:before {
+  content: "\e9e3";
+}
+.icon-point-up:before {
+  content: "\ea03";
+}
+.icon-point-right:before {
+  content: "\ea04";
+}
+.icon-point-down:before {
+  content: "\ea05";
+}
+.icon-point-left:before {
+  content: "\ea06";
+}
+.icon-scissors:before {
+  content: "\ea5a";
+}
+.icon-filter:before {
+  content: "\ea5b";
+}
+.icon-amazon:before {
+  content: "\ea87";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-vine:before {
+  content: "\ea97";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-vimeo:before {
+  content: "\eaa0";
+}
+.icon-behance:before {
+  content: "\eaa8";
+}
+.icon-blogger:before {
+  content: "\eab7";
+}
+.icon-tumblr:before {
+  content: "\eab9";
+}
+.icon-yahoo:before {
+  content: "\eabb";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-lastfm:before {
+  content: "\eacb";
+}
+.icon-stumbleupon:before {
+  content: "\eace";
+}

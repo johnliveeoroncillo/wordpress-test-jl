@@ -1,0 +1,1 @@
+<a href="<?php echo esc_js('javascript:void(0)')?>" id="ttBackToTop" class="tt-back-to-top"><?php esc_html_e('Back to top','caleader'); ?></a>

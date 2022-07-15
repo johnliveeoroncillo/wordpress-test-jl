@@ -1,0 +1,517 @@
+.caleader-base #tt-header.tt-header-01 #tt-desctop-menu nav>ul {
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+}
+
+.caleader-base .tt-listing-post .tt-post .tt-layout {
+    margin-right: 0;
+    padding: 30px;
+}
+
+.caleader-base .tt-listing-post .tt-post {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+
+.caleader-base #tt-header.tt-header-01 .header-holder .col-menu {
+    margin-right: 0px;
+}
+
+.caleader-base #tt-header.tt-header-01 #tt-desctop-menu nav>ul>li a {
+    padding-right: 0;
+}
+
+.caleader-base #tt-footer:not([class^="tt-footer-indent"]) .tt-logo {
+    margin-top: 0px;
+}
+
+.caleader-base #tt-footer:not([class^="tt-footer"]) .tt-footer-layout {
+    padding-bottom: 32px;
+}
+
+.caleader-base #tt-footer:not([class^="tt-footer"]) .tt-footer-copyright {
+    padding: 16px 0;
+}
+
+.caleader-base .singlepost-indent {
+    margin-right: 0px;
+}
+
+.caleader-base .singlepost-indent .singlepost-wrapper {
+    margin-top: 0px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.caleader-base .singlepost-indent .singlepost-wrapper ol li {
+    list-style-type: decimal;
+}
+
+.caleader-base .singlepost-indent .singlepost-wrapper ul li {
+    list-style-type: disc;
+}
+
+.caleader-base .singlepost-indent .singlepost-wrapper p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #707070;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.7em;
+}
+
+.caleader-base .singlepost-indent .singlepost-wrapper .has-background {
+    padding: 20px 30px;
+}
+
+.caleader-base .singlepost-indent .singlepost-wrapper .has-very-light-gray-color {
+    color: #fff;
+}
+
+.caleader-base .tt-listing-post .tt-post .tt-layout .tt-title {
+    padding-bottom: 15px;
+}
+
+.caleader-base .singlepost-wrapper .tt-layout-bottom {
+    margin-top: 24px;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+
+.caleader-base .singlepost-wrapper .tt-title {
+    font-size: 32px;
+    padding-bottom: 19px;
+    margin-top: 14px;
+}
+
+.caleader-base .tt-listing-post {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.caleader-base .tt-pagination {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.caleader-base .rightColumn .tt-block02-aside:not(:first-child) {
+    margin-top: 35px;
+}
+
+.caleader-base .rightColumn .tt-block02-title {
+    padding-bottom: 20px;
+}
+
+.caleader-base .rightColumn select[name="archive-dropdown"],
+.caleader-base .rightColumn select[name="cat"],
+.caleader-base .rightColumn select[name="monster-widget-just-testing"] {
+    margin-top: 0px;
+}
+
+.caleader-base .rightColumn .widget_categories ul li,
+.caleader-base .rightColumn .widget_pages ul li {
+    margin: 15px 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.caleader-base .rightColumn .widget_nav_menu ul {
+    margin-top: 0px !important;
+    margin: 0px !important;
+}
+
+.caleader-base .rightColumn .widget_nav_menu ul li {
+    margin: 15px 0;
+}
+
+.caleader-base .post-commnet-are-me {
+    overflow: hidden;
+}
+
+.caleader-base .tt-title-sub.tt-title-top {
+    margin-top: 32px;
+}
+
+.caleader-base .tt-title-sub {
+    font-size: 19px;
+}
+
+.caleader-base .tt-comments-layout .tt-item div.comment .tt-content .tt-comments-title .username a,
+.caleader-base .tt-comments-layout .tt-item div.comment .tt-content .tt-comments-title .username {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.caleader-base .comment-respond {
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.caleader-base .comment-respond .comment-respond-title {
+    margin-top: 0;
+    padding-bottom: 13px;
+    font-size: 17px;
+}
+
+.caleader-base .tt-subpages-wrapper {
+    height: 275px;
+}
+
+.caleader-base .have-no-for-comment {
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.caleader-base .email-not-publish {
+    padding-bottom: 20px;
+}
+
+.caleader-base textarea {
+    padding: 15px;
+}
+
+.caleader-base .comment-form-cookies-consent {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.caleader-base .logged-in-as {
+    margin-bottom: 17px;
+}
+
+.caleader-base .tt-comments-layout .comment-respond {
+    padding: 20px;
+}
+
+.caleader-base .tt-comments-layout textarea,
+.caleader-base .tt-comments-layout input {
+    background: #f7f7f7;
+    font-size: 15px;
+    border: 1px solid transparent;
+    padding: 3px 12px 4px 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    color: #707070;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.caleader-base .tt-comments-layout textarea {
+    height: 163px;
+    padding: 15px;
+}
+
+.caleader-base .tt-comments-layout input {
+    height: 56px;
+    padding: 15px;
+}
+
+.caleader-base .tt-comments-layout .comment-form-cookies-consent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.caleader-base .tt-comments-layout .comment-form-cookies-consent input {
+    width: 12px;
+    height: 12px;
+}
+
+.caleader-base .tt-desctop-menu ul .menu-item-has-children ul {
+    left: 0 !important;
+}
+
+.caleader-base .tt-desctop-menu ul .menu-item-has-children ul li a {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.caleader-base .tt-desctop-menu ul .menu-item-has-children ul li ul {
+    left: 27px !important;
+    top: 33px !important;
+}
+
+.caleader-base #tt-header.tt-header-01 #tt-desctop-menu nav>ul>li>ul>li>ul:before {
+    display: none;
+}
+
+.caleader-base .wp-block-image {
+    margin: 0;
+    margin: 20px 0;
+}
+
+.caleader-base .wp-block-image figcaption {
+    text-align: center;
+}
+
+.caleader-base .tt-single-post .single-indent-top {
+    margin-top: 20px;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.caleader-base .tt-post .tt-img img {
+    width: auto;
+    max-width: 100%;
+}
+
+.caleader-base .wp-block-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caleader-base .singlepost-indent .singlepost-wrapper .wp-block-cover,
+.caleader-base .singlepost-indent .singlepost-wrapper .wp-block-cover-image {
+    margin-top: 5px;
+    margin-bottom: 1.5em;
+}
+
+.caleader-base .singlepost-indent .singlepost-wrapper .wp-block-cover .wp-block-cover-text,
+.caleader-base .singlepost-indent .singlepost-wrapper .wp-block-cover-image .wp-block-cover-text {
+    color: #fff;
+}
+
+.caleader-base .wp-block-gallery {
+    -webkit-padding-start: 0 !important;
+    padding-inline-start: 0 !important;
+    list-style-type: none !important;
+    margin-top: 15px !important;
+}
+
+.caleader-base .wp-block-embed__wrapper:before {
+    display: none;
+}
+
+.caleader-base .wp-block-embed__wrapper iframe {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    height: 400px;
+}
+
+.caleader-base .wp-block-archives.wp-block-archives-dropdown select {
+    max-width: 270px;
+    width: 100%;
+    background: transparent;
+    margin-left: 0;
+    height: 50px;
+    padding: 10px;
+    color: #000;
+    border: 1px solid #dd3d53;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+
+.caleader-base .tt-comments-layout .tt-item div.comment {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0px !important;
+    padding: 0px !important;
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-top: 1px solid #e5e5e5;
+    margin-left: 15px !important;
+}
+
+.caleader-base .tt-comments-layout .tt-item div.comment:last-child {
+    padding-bottom: 0px !important;
+}
+
+.caleader-base .tt-comments-layout .tt-item div.comment.odd {
+    background: #fff;
+}
+
+.caleader-base .tt-avatar-area {
+    float: left;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.caleader-base .tt-form-default.tt-form-review {
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.caleader-base .tt-comments-layout {
+    border: 0;
+}
+
+.caleader-base .trackback,
+.caleader-base .pingback {
+    padding: 20px 0px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.caleader-base .trackback::nth-child(2),
+.caleader-base .pingback::nth-child(2) {
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+.caleader-base .tt-item+.comment {
+    display: none !important;
+}
+
+.caleader-base .pingback~.comment.even.thread-even.depth-1.tt-comments-level-1 {
+    margin-top: 0 !important;
+    border-top: 0 !important;
+}
+
+.caleader-base .trackback .tt-content .tt-comments-title,
+.caleader-base .pingback .tt-content .tt-comments-title {
+    color: #707070;
+    padding-bottom: 13px;
+}
+
+.caleader-base .trackback .tt-content .tt-comments-title .username,
+.caleader-base .pingback .tt-content .tt-comments-title .username {
+    font-size: 18px;
+    font-weight: 600;
+    color: #dd3d53;
+}
+
+.caleader-base .trackback .tt-content p,
+.caleader-base .pingback .tt-content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+}
+
+.caleader-base .no-comments {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.caleader-base .tt-title a {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    display: block !important;
+}
+
+.caleader-base .tt-pagination nav.navigation.pagination {
+    margin: 0;
+}
+
+.caleader-base .tt-pagination nav.navigation.pagination a,
+.caleader-base .tt-pagination nav.navigation.pagination .current,
+.caleader-base .tt-pagination nav.navigation.pagination .dots {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    background-color: #f7f7f7;
+    font-size: 15px;
+    line-height: 3;
+    font-weight: 600;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    padding: 0;
+    border: 0;
+}
+
+.caleader-base .tt-pagination nav.navigation.pagination .current,
+.caleader-base .tt-pagination nav.navigation.pagination .dots {
+    border-color: #dd3d53;
+    background-color: #dd3d53;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.07);
+}
+
+.caleader-base .calendar_wrap td#today a {
+    color: white !important;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 575.98px) {
+    .caleader-base .singlepost-indent .singlepost-wrapper {
+        padding: 0px;
+    }
+    .caleader-base .singlepost-indent .singlepost-wrapper .divider.divider-lg {
+        display: none;
+    }
+    .caleader-base .post-password-form input {
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+}
+
+.caleader-base .tt-title-sub.tt-title-top {
+    padding-bottom: 17px !important;
+}
+
+.caleader-base .tt-comments-layout .tt-item>div.comment,
+.caleader-base .tt-comments-layout .tt-item>div.comment>div.comment,
+.caleader-base .tt-comments-layout .tt-item>div.comment>div.comment>div.comment {
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+}
+
+.caleader-base .tt-comments-layout .tt-item>div.comment>div.comment>div.comment>.tt-avatar-area {
+    margin-bottom: 15px !important;
+}
+
+.caleader-base .tt-comments-layout .tt-item>div.comment>div.comment>div.comment>div.comment>.tt-avatar-area {
+    margin-bottom: 15px !important;
+    padding-top: 15px !important;
+}
+
+.caleader-base .tt-comments-layout .tt-item>div.comment>div.comment>div.comment>div.comment>div.comment>.tt-avatar-area {
+    margin-bottom: 15px !important;
+    padding-top: 15px !important;
+}
+
+.comment p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.tt-comments-layout .tt-item div.comment .tt-avatar {
+    margin-bottom: 0;
+}

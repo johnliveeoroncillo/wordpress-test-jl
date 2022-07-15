@@ -1,0 +1,111 @@
+@import "variables";
+@import 'mixins';
+
+.btn {
+    font-family: $font-family-sans-serif;    
+}
+
+.btn-lg {
+    height: $input-height-lg !important;
+}
+
+.btn-md {
+    @extend .btn-sm;
+    height: $input-height-md !important;    
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.btn-sm {
+    height: $input-height-sm;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-primary {    
+    &:not([disabled]):not(.disabled) {
+        @include hover-focus {        
+            background-color: $red-100;
+            border-color: $red-100;
+        }
+    }
+
+    &:disabled, &.disabled {
+        @include button-disabled;            
+    }
+
+    &.hover {
+        background-color: $red-100;
+        border-color: $red-100; 
+    }
+}
+
+.btn-secondary {
+    &.hover {
+        background-color: darken($secondary, 7.5%);
+        border-color: darken($secondary, 10%);
+    }
+
+    &:disabled, &.disabled {
+        @include button-disabled;            
+    }
+}
+
+@each $color, $value in $theme-colors {
+    .btn-outline-#{$color} {
+        color: $value !important;
+
+        @include hover-focus {    
+            &:not(:disabled) {
+                @if ($color == 'dark') {
+                    color: $dark !important;    
+                } @else {
+                    color: $white !important;    
+                    background-color: $value !important;
+                }
+            }            
+        }
+    }
+}
+
+.btn-outline-dark {   
+    &:not([disabled]):not(.disabled) {
+        @include hover-focus {    
+            color: $dark;    
+            background-color: $white-100;
+            border-color: $white-200; 
+        }
+    }
+
+    &:disabled, &.disabled {
+        @include button-disabled;            
+    }
+
+    &.hover {        
+        color: $dark;    
+        background-color: $white-100;
+        border-color: $white-200; 
+    }
+}
+
+.btn-outline-light {   
+    border: transparent !important;
+
+    &:not([disabled]):not(.disabled) {
+        @include hover-focus {    
+            color: $dark;    
+            background-color: $white-100;
+            border-color: $white-200; 
+        }
+    }
+
+    &:disabled, &.disabled {
+        @include button-disabled;            
+    }
+
+    &.hover {        
+        color: $dark;    
+        background-color: $white-100;
+        border-color: $white-200; 
+    }
+}

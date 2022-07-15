@@ -1,0 +1,9 @@
+@each $color, $colors in $color-collections {
+    @each $name, $hex in $colors {
+        .bg-#{$color}-#{$name} { background: $hex !important; }        
+        .hvr-bg-#{$color}-#{$name}:hover { background: darken($hex, 10%) !important; }
+        .hvr-text-#{$color}-#{$name}:hover { color: $hex !important; }
+        .border-#{$color}-#{$name} { border: 1px solid $hex !important; }
+        .text-#{$color}-#{$name} { color: $hex !important; }
+    }
+}
