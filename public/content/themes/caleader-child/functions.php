@@ -12,22 +12,25 @@ require_once 'constants.php';
 require_once 'settings.php';
 require_once 'metaboxes/meta_box.php';
 
-// require_once 'class/Products.php';
-// require_once 'class/Navigation.php';
-// require_once 'class/Footer.php';
-// require_once 'class/Listings.php'; 
-// require_once 'class/Single.php'; 
-// require_once 'class/CustomSearch.php';
-// require_once 'class/CarleaderListingCustom.php';
-// require_once 'class/CarleaderListingCustomDetails.php';
+if (wp_get_theme() === 'caleader') {
+	require_once 'class/Products.php';
+	require_once 'class/Navigation.php';
+	require_once 'class/Footer.php';
+	require_once 'class/Listings.php'; 
+	require_once 'class/Single.php'; 
+	require_once 'class/CustomSearch.php';
+	require_once 'class/CarleaderListingCustom.php';
+	require_once 'class/CarleaderListingCustomDetails.php';
 
-// require_once 'widgets/carleader-calculator-widget.php';
-// require_once 'class/ApplyLoan.php';
-// require_once 'class/BookAVisit.php';
-// require_once 'class/BuyNow.php';
-// require_once 'class/RestApi.php';
-// require_once 'class/ProductVariants.php';
+	require_once 'widgets/carleader-calculator-widget.php';
+	require_once 'class/ApplyLoan.php';
+	require_once 'class/BookAVisit.php';
+	require_once 'class/BuyNow.php';
+	require_once 'class/RestApi.php';
+	require_once 'class/ProductVariants.php';
 // require_once ELEMENTOR_PATH . 'elementor.php';
+}
+
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 add_action( 'admin_enqueue_scripts', 'init_admin_styles' );
