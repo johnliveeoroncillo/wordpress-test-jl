@@ -10,7 +10,7 @@
       "version": "5.9.2",
       "dist": {
         "type": "zip",
-        "url": "https://github.com/WordPress/WordPress/archive/4.8.1.zip"
+        "url": "https://github.com/WordPress/WordPress/archive/5.9.2.zip"
       },
       "require": {
         "fancyguy/webroot-installer": "1.0.0"
